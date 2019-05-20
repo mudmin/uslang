@@ -198,7 +198,6 @@ $lang = array_merge($lang,array(
 		"JOIN_THANKS"		=> "Thanks for registering!",
 		"JOIN_HAVE"			=> "Have at least ",
 		"JOIN_CAP"			=> " capital letter",
-		"JOIN_CAP"			=> " capital letter",
 		"JOIN_TWICE"		=> "Be typed correctly twice",
 		"JOIN_CLOSED"		=> "Unfortunately registration is disabled at this time. Please contact the Site Administrator if you have any questions or concerns.",
 		"JOIN_TC"				=> "Registration User Terms and Conditions",
@@ -286,6 +285,21 @@ $lang = array_merge($lang,array(
 		"EML_CHK"				=> "Email request received. Please check your email to perform verification. Be sure to check your Spam and Junk folder as the verification link expires in ",
 		"EML_MAT"				=> "Your email did not match.",
 		"EML_HELLO"			=> "Hello from ",
+		"EML_HI"				=> "Hi ",
+		"EML_AD_HAS"		=> "An Administrator has reset your password.",
+		"EML_AC_HAS"		=> "An Administrator has created your account.",
+		"EML_REQ"				=> "You will be required to set your password using the link above.",
+		"EML_EXP"				=> "Please note, Password links expire in ",
+		"EML_VER_EXP"		=> "Please note, Verification links expire in ",
+		"EML_CLICK"			=> "Click here to login.",
+		"EML_REC"				=> "It is recommended to change your password upon logging in.",
+		"EML_MSG"				=> "You have a new message from",
+		"EML_REPLY"			=> "Click here to reply or view the thread",
+		"EML_WHY"				=> "You are receiving this email because a request was made to reset your password. If this was not you, you may disregard this email.",
+		"EML_HOW"				=> "If this was you, click the link below to continue with the password reset process.",
+		"EML_EML"				=> "A request to change your email was made from within your user account.",
+		"EML_VER_EML"		=> "Thanks for signing up.  Once you verify your email address you will be ready to login! Please click the link below to verify your email address.",
+
 		));
 
 		//Verification
@@ -340,6 +354,7 @@ $lang = array_merge($lang,array(
 		"ERR_GOOG"				=> "<strong>NOTE:</strong> If you originally signed up with your Google/Facebook account, you will need to use the forgot password link to change your password...unless you're really good at guessing.",
 		"ERR_EM_VER"			=> "Email verification is not enabled. Please contact the System Administrator.",
 		"ERR_EMAIL_STR"		=> "Something is strange. Please re-verify your email. We are sorry for the inconvenience",
+
 		));
 
 	//Maintenance Page
@@ -351,6 +366,27 @@ $lang = array_merge($lang,array(
 		"MAINT_OPEN"		=> "An Open Source PHP User Management Framework.",
 		"MAINT_PLEASE"	=> "You have successfully installed UserSpice!<br>To view our getting started documentation, please visit"
 		));
+
+		//dataTables Added in 4.4.08
+		//NOTE: do not change the words like _START_ between the two _ symbols!
+		$lang = array_merge($lang,array(
+		"DAT_SEARCH"    => "Search",
+		"DAT_FIRST"     => "First",
+		"DAT_LAST"      => "Last",
+		"DAT_NEXT"      => "Next",
+		"DAT_PREV"      => "Previous",
+		"DAT_NODATA"        => "No data available in table",
+		"DAT_INFO"          => "Showing _START_ to _END_ of _TOTAL_ entries",
+		"DAT_ZERO"          => "Showing 0 to 0 of 0 entries",
+		"DAT_FILTERED"      => "(filtered from _MAX_ total entries)",
+		"DAT_MENU_LENG"     => "Show _MENU_ entries",
+		"DAT_LOADING"       => "Loading...",
+		"DAT_PROCESS"       => "Processing...",
+		"DAT_NO_REC"        => "No matching records found",
+		"DAT_ASC"           => "Activate to sort column ascending",
+		"DAT_DESC"          => "Activate to sort column descending",
+		));
+
 
 
 //LEAVE THIS LINE AT THE BOTTOM.  It allows users/lang to override these keys
