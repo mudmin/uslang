@@ -8,7 +8,7 @@
 	ВАЖНО: не добавляйте новые переводы в середину массива - это усложняет отслеживание изменений.
 	Все новые строки добавляются в конец массива. Обсуждения проходят в Discord.
 
-	UserSpice 5
+	UserSpice
 	An Open Source PHP User Management System
 	by the UserSpice Team at http://UserSpice.com
 

@@ -9,7 +9,7 @@ you to update it and thank you for your hard work!
 
 PLEASE NOTE: DO NOT ADD RANDOM KEYS in the middle of the translations.  In order to make it easier to tell what language keys are missing, from this point forward, we are going to add all new language keys at the BOTTOM of this file. The number of lines in your language file will tell you which keys still need to be translated.  If you have questions please ask on the forums or on Discord.
 
-UserSpice 4
+UserSpice
 An Open Source PHP User Management System
 by the UserSpice Team at http://UserSpice.com
 
@@ -340,7 +340,7 @@ $lang = array_merge($lang,array(
 
 	//Maintenance Page
 	$lang = array_merge($lang,array(
-		"MAINT_HEAD"		=> "Wir werden bald zurück sein!",
+		"MAINT_HEAD"		=> "Wir werden bald zur&uuml;ck sein!",
 		"MAINT_MSG"			=> "Entschuldigung Sie die Unannehmlichkeiten, wir führen gerade enige Wartungsarbeiten aus.<br> Wir werden in Kürze wieder online sein!",
 		"MAINT_BAN" 		=> "Es tut uns leid. Sie wurden Blockiert. Bitte den Systemadministrator kontaktieren, falls Sie glauben, das es einen Fehler gibt.",
 		"MAINT_TOK" 		=> "Es gibt einen Fehler im Formular. Bitte erneut versuchen. Hinweis: Sollte dies erneut passieren, wenden sie sich bitte an den Administrator.",
