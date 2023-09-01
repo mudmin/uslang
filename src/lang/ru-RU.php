@@ -35,16 +35,16 @@ $lang = array();
 /**
  * Настройки языка
  */
-$lang = array_merge($lang,array(
-	"THIS_LANGUAGE"	=>"Русский (Россия)",
-	"THIS_CODE"		=>"ru-RU",
-	"MISSING_TEXT"	=>"Отсутствует текст"
+$lang = array_merge($lang, array(
+	"THIS_LANGUAGE"	=> "Русский (Россия)",
+	"THIS_CODE"		=> "ru-RU",
+	"MISSING_TEXT"	=> "Отсутствует текст"
 ));
 
 /**
  * Меню пользователя
  */
-$lang = array_merge($lang,array(
+$lang = array_merge($lang, array(
 	"MENU_HOME"		=> "Главная",
 	"MENU_HELP"		=> "Помощь",
 	"MENU_ACCOUNT"	=> "Аккаунт",
@@ -60,7 +60,7 @@ $lang = array_merge($lang,array(
 /**
  * Регистрация
  */
-$lang = array_merge($lang,array(
+$lang = array_merge($lang, array(
 	"SIGNUP_TEXT"		=> "Регистрация",
 	"SIGNUP_BUTTONTEXT"	=> "Зарегистрироваться",
 	"SIGNUP_AUDITTEXT"	=> "Зарегистрирован"
@@ -69,7 +69,7 @@ $lang = array_merge($lang,array(
 /**
  * Авторизация на сайте
  */
-$lang = array_merge($lang,array(
+$lang = array_merge($lang, array(
 	"SIGNIN_FAIL"		=> "** ОШИБКА ВХОДА **",
 	"SIGNIN_PLEASE_CHK" => "Проверьте логин и пароль на ошибки",
 	"SIGNIN_UORE"		=> "Логин или Email",
@@ -87,7 +87,7 @@ $lang = array_merge($lang,array(
 /**
  * Страница аккаунта
  */
-$lang = array_merge($lang,array(
+$lang = array_merge($lang, array(
 	"ACCT_EDIT"		=> "Редактировать информацию об учетной записи",
 	"ACCT_2FA"		=> "Управление 2-факторной аутентификацией",
 	"ACCT_SESS"		=> "Управление сеансами",
@@ -101,7 +101,7 @@ $lang = array_merge($lang,array(
 /**
  * Основные термины
  */
-$lang = array_merge($lang,array(
+$lang = array_merge($lang, array(
 	"GEN_ENABLED"	=> "Включено",
 	"GEN_DISABLED"	=> "Выключено",
 	"GEN_ENABLE"	=> "Включить",
@@ -148,7 +148,7 @@ $lang = array_merge($lang,array(
 /**
  * Классы верификации
  */
-$lang = array_merge($lang,array(
+$lang = array_merge($lang, array(
 	"VAL_SAME"		=> "должно быть то же самое",
 	"VAL_EXISTS"	=> "уже существует. Пожалуйста, выберите другую",
 	"VAL_DB"		=> "Ошибка базы данных",
@@ -174,7 +174,7 @@ $lang = array_merge($lang,array(
 /**
  * Время
  */
-$lang = array_merge($lang,array(
+$lang = array_merge($lang, array(
 	"T_YEARS"	=> "Годы",
 	"T_YEAR"	=> "Год",
 	"T_MONTHS"	=> "Месяцы",
@@ -194,7 +194,7 @@ $lang = array_merge($lang,array(
 /**
  * Пароли
  */
-$lang = array_merge($lang,array(
+$lang = array_merge($lang, array(
 	"PW_NEW"	=> "Новый пароль",
 	"PW_OLD"	=> "Старый пароль",
 	"PW_CONF"	=> "Подтвердить пароль",
@@ -208,7 +208,7 @@ $lang = array_merge($lang,array(
 /**
  * Регистрация на сайте
  */
-$lang = array_merge($lang,array(
+$lang = array_merge($lang, array(
 	"JOIN_SUC"		=> "Добро пожаловать",
 	"JOIN_THANKS"	=> "Спасибо за регистрацию!",
 	"JOIN_HAVE"		=> "Попробуй хотя бы",
@@ -224,14 +224,14 @@ $lang = array_merge($lang,array(
 /**
  * Сессии
  */
-$lang = array_merge($lang,array(
+$lang = array_merge($lang, array(
 	"SESS_SUC"	=> "Успешно убит ",
 ));
 
 /**
  * Сообщения
  */
-$lang = array_merge($lang,array(
+$lang = array_merge($lang, array(
 	"MSG_SENT"		=> "Ваше сообщение отправлено!",
 	"MSG_MASS"		=> "Ваше массовое сообщение отправлено!",
 	"MSG_NEW"		=> "Новое сообщение",
@@ -269,7 +269,7 @@ $lang = array_merge($lang,array(
 /**
  * Двухфакторная авторизация
  */
-$lang = array_merge($lang,array(
+$lang = array_merge($lang, array(
 	"2FA"		=> "2 Факторная аутентификация",
 	"2FA_CONF"	=> "Вы уверены, что хотите отключить двухфакторную аутентификацию? Ваш аккаунт больше не будет защищен.",
 	"2FA_SCAN"	=> "Отсканируйте этот QR-код с помощью приложения аутентификатора или введите ключ",
@@ -292,7 +292,7 @@ $lang = array_merge($lang,array(
  *
  * Вместо пробелов используйте +
  */
-$lang = array_merge($lang,array(
+$lang = array_merge($lang, array(
 	"REDIR_2FA"				=> "Извините.Двух+факторная+идентификация+в+настоящее+время+не+поддерживается",
 	"REDIR_2FA_EN"			=> "2х+Факторная+Аутентификация+Включена",
 	"REDIR_2FA_DIS"			=> "2х+Факторная+Аутентификация+Отключена",
@@ -306,7 +306,7 @@ $lang = array_merge($lang,array(
 /**
  * Письма
  */
-$lang = array_merge($lang,array(
+$lang = array_merge($lang, array(
 	"EML_CONF"		=> "Подтвердить электронную почту",
 	"EML_VER"		=> "Проверить свою электронную почту",
 	"EML_CHK"		=> "Получен запрос по электронной почте. Пожалуйста, проверьте свою электронную почту для выполнения проверки. Обязательно проверьте папку `Спам и Корзину` до истечения срока действия верификационной ссылки в папке ",
@@ -331,7 +331,7 @@ $lang = array_merge($lang,array(
 /**
  * Верификация
  */
-$lang = array_merge($lang,array(
+$lang = array_merge($lang, array(
 	"VER_SUC"		=> "Ваша электронная почта была подтверждена!",
 	"VER_FAIL"		=> "Мы не смогли проверить Вашу учетную запись. Пожалуйста, попробуйте еще раз.",
 	"VER_RESEND"	=> "Повторная отправка сообщения на электронную почту с подтверждением",
@@ -348,7 +348,7 @@ $lang = array_merge($lang,array(
 /**
  * Настройки пользователя
  */
-$lang = array_merge($lang,array(
+$lang = array_merge($lang, array(
 	"SET_PIN"		=> "Сброс PIN-кода",
 	"SET_WHY"		=> "Почему я не могу изменить это?",
 	"SET_PW_MATCH"	=> "Должен соответствовать новому паролю",
@@ -366,7 +366,7 @@ $lang = array_merge($lang,array(
 /**
  * Ошибки
  */
-$lang = array_merge($lang,array(
+$lang = array_merge($lang, array(
 	"ERR_FAIL_ACT"	=> "Не удалось завершить активные сеансы, ошибка: ",
 	"ERR_EMAIL"		=> "Сообщение не отправлено из-за ошибки. Пожалуйста, свяжитесь с администратором сайта",
 	"ERR_EM_DB"		=> "Этого адреса электронной почты в нашей базе данных не существует",
@@ -382,7 +382,7 @@ $lang = array_merge($lang,array(
 /**
  * Страница технических работ
  */
-$lang = array_merge($lang,array(
+$lang = array_merge($lang, array(
 	"MAINT_HEAD"	=> "Мы скоро вернемся!",
 	"MAINT_MSG"		=> "Извините за неудобства, но в данный момент мы выполняем некоторые работы по обслуживанию",
 	"MAINT_BAN"		=> "Простите. Вас заблокировали. Если Вы считаете, что это ошибка, обратитесь к администратору",
@@ -398,7 +398,7 @@ $lang = array_merge($lang,array(
  *
  * @since	4.4.08
  */
-$lang = array_merge($lang,array(
+$lang = array_merge($lang, array(
 	"DAT_SEARCH"	=> "Поиск",
 	"DAT_FIRST"		=> "Первый",
 	"DAT_LAST"		=> "Последний",
@@ -421,7 +421,7 @@ $lang = array_merge($lang,array(
  *
  * @since	5.0.0
  */
-$lang = array_merge($lang,array(
+$lang = array_merge($lang, array(
 	"BE_DASH"		=> "Панель управления",
 	"BE_SETTINGS"	=> "Настройки",
 	"BE_GEN"		=> "Основное",
@@ -438,7 +438,7 @@ $lang = array_merge($lang,array(
 /**
  * Оставьте эти строки, чтобы система могла перезаписывать переводы
  */
-if(file_exists($abs_us_root.$us_url_root."usersc/lang/".$lang["THIS_CODE"].".php")){
-	include($abs_us_root.$us_url_root."usersc/lang/".$lang["THIS_CODE"].".php");
+if (file_exists($abs_us_root . $us_url_root . "usersc/lang/" . $lang["THIS_CODE"] . ".php")) {
+	include($abs_us_root . $us_url_root . "usersc/lang/" . $lang["THIS_CODE"] . ".php");
 }
  //do not put a closing php tag here
