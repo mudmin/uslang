@@ -264,9 +264,9 @@ $lang = array_merge($lang, array(
 	"2FA_ACTIVE" => "Aktivní relace",
 	"2FA_NOT_FN" => "Žádné fingerprinty nebyly nalezeny",
 	"2FA_FP"		=> "Fingerprinty",
-	"2FA_NP"		=> "<strong>Přihlášení selhalo</strong> Dvoufaktorový autentizační kód nebyl zadán. Prosím, zkuste znovu.",
-	"2FA_INV"		=> "<strong>Přihlášení selhalo</strong> Dvoufaktorový autentizační kód nebyl správný. Prosím, zkuste znovu.",
-	"2FA_FATAL"	=> "<strong>Fatální error</strong> Prosím, kontaktujte systémového administrátora.",
+	"2FA_NP"		=> "Přihlášení selhalo  Dvoufaktorový autentizační kód nebyl zadán. Prosím, zkuste znovu.",
+	"2FA_INV"		=> "Přihlášení selhalo  Dvoufaktorový autentizační kód nebyl správný. Prosím, zkuste znovu.",
+	"2FA_FATAL"	=> "Fatální error  Prosím, kontaktujte systémového administrátora.",
 ));
 
 //Redirect Messages - These get a plus between each word
@@ -314,13 +314,13 @@ $lang = array_merge($lang, array(
 	"VER_RESEND"	=> "Znovu poslat ověřovací email",
 	"VER_AGAIN"		=> "Zadejte svou emailovou adresu a zkuste to znovu",
 	"VER_PAGE"		=> "<li>Zkontrolujte svůj email a klikněte na odkaz, který jsme Vám poslali.</li><li>Hotovo</li>",
-	"VER_RES_SUC" => "<p>Ověřovací odkaz jsme poslali na Vaši emailovou adresu.</p><p>Pro dokončení ověření klikněte na odkaz v emailu. V případě, že se email nenachází ve Vaší schránce, zkontrolujte také spam složku.</p><p>Ověřovací odkazy jsou platné jen ",
+	"VER_RES_SUC" => " Ověřovací odkaz jsme poslali na Vaši emailovou adresu.  Pro dokončení ověření klikněte na odkaz v emailu. V případě, že se email nenachází ve Vaší schránce, zkontrolujte také spam složku.  Ověřovací odkazy jsou platné jen ",
 	"VER_OOPS"		=> "Ajéje...něco se nepodařilo, možná jste klikli na již neplatný odkaz. Zkuste to znovu kliknutím níže.",
 	"VER_RESET"		=> "Vaše heslo bylo resetováno!",
 	"VER_INS"			=> "<li>Zadejte svou emailovou adresu a klikněte na Resetovat.</li> <li>Zkontolujte svůj email a klikněte na námi zaslaný odkaz.</li>
 												<li>Postupujte podle instrukcí na obrazovce.</li>",
-	"VER_SENT"		=> "<p>Odkaz na resetování hesla jsme zaslali na Vaši emailovou adresu.</p>
-			    							<p>Pro resetování hesla klikněte v emailu na námi zaslaný odkaz.  V případě, že se email nenachází ve Vaší schránce, zkontrolujte také spam složku.</p><p>Ověřovací odkazy jsou platné jen ",
+	"VER_SENT"		=> " Odkaz na resetování hesla jsme zaslali na Vaši emailovou adresu. 
+			    							 Pro resetování hesla klikněte v emailu na námi zaslaný odkaz.  V případě, že se email nenachází ve Vaší schránce, zkontrolujte také spam složku.  Ověřovací odkazy jsou platné jen ",
 	"VER_PLEASE"	=> "Prosím, resetujte své heslo",
 ));
 
@@ -335,12 +335,12 @@ $lang = array_merge($lang, array(
 	"SET_NOCHANGE"	=> "Administrátor zakázal měnit uživatelská jména.",
 	"SET_ONECHANGE"	=> "Administrátor nastavil povolený počet změn uživatelského jména na 1 a tento počet jste již provedli.",
 
-	"SET_GRAVITAR"	=> "<strong>Chcete si změnit profilový obrázek? </strong><br> Navštivte <a href='https://en.gravatar.com/'>https://en.gravatar.com/</a> a zařiďtě si účet se stejným emailem, jako jste použili u nás. Funguje to na milionech stránkách. Je to rychlé a snadné!",
+	"SET_GRAVITAR"	=> "Chcete si změnit profilový obrázek?  <br> Navštivte <a href='https://en.gravatar.com/'>https://en.gravatar.com/</a> a zařiďtě si účet se stejným emailem, jako jste použili u nás. Funguje to na milionech stránkách. Je to rychlé a snadné!",
 
-	"SET_NOTE1"			=> "<p><strong>Prosím pozor,</strong> máte nevyřízený požadavek aktualizovat svůj email na",
+	"SET_NOTE1"			=> " Prosím pozor,  máte nevyřízený požadavek aktualizovat svůj email na",
 
-	"SET_NOTE2"			=> ".</p><p>Prosím použijte ověřovací email pro splnění tohoto požadavku.</p>
-		<p>Pokud potřebujete nový ověřovací email, zadejte prosím výše svou emailovou adresu a odešlete požadavek znovu.</p>",
+	"SET_NOTE2"			=> ".  Prosím použijte ověřovací email pro splnění tohoto požadavku. 
+		 Pokud potřebujete nový ověřovací email, zadejte prosím výše svou emailovou adresu a odešlete požadavek znovu. ",
 
 	"SET_PW_REQ" 		=> "vyžadováno pro změnu hesla, emailu nebo resetování PINu",
 	"SET_PW_REQI" 	=> "Vyžadováno pro změnu Vašeho hesla",
@@ -356,7 +356,7 @@ $lang = array_merge($lang, array(
 	"ERR_CAP"					=> "Neprošel jsi Captcha testem, Ty jeden Robote!",
 	"ERR_PW_SAME"			=> "Vaše staré heslo nesmí být stejné jako Vaše nové heslo.",
 	"ERR_PW_FAIL"			=> "Ověření hesla selhalo. Aktualizace selhala. Prosím, zkuste to znovu.",
-	"ERR_GOOG"				=> "<strong>POZNÁMKA:</strong> Pokud jste se původně registrovali Vaším Google/Facebook účtem, pro změnu Vašeho hesla budete muset použít odkaz \"Zapomenuté heslo\"...pokud tedy nejste velmi dobří v hádání.",
+	"ERR_GOOG"				=> "POZNÁMKA:  Pokud jste se původně registrovali Vaším Google/Facebook účtem, pro změnu Vašeho hesla budete muset použít odkaz \"Zapomenuté heslo\"...pokud tedy nejste velmi dobří v hádání.",
 	"ERR_EM_VER"			=> "Ověření emailu není povoleno. Kontaktujte prosím systémového administrátora.",
 	"ERR_EMAIL_STR"		=> "Něco se nepovedlo. Prosím, znovu ověřte svůj email. Za vzniklé nepříjemnosti se omlouváme.",
 

@@ -264,9 +264,9 @@ $lang = array_merge($lang, array(
 	"2FA_ACTIVE" => "Aktive Sesjoner",
 	"2FA_NOT_FN" => "Ingen fingeravtrykk funnet",
 	"2FA_FP"		=> "Fingeravtrykk",
-	"2FA_NP"		=> "<strong>Innlogging feilet</strong> Tofaktorautentiseringskode var ikke tilstede. Vennligst prøv på nytt.",
-	"2FA_INV"		=> "<strong>Innlogging feilet</strong> Tofaktorautentiseringskode var feil. Vennligst prøv på nytt.",
-	"2FA_FATAL"	=> "<strong>Kritisk feil</strong> Vennligst kontakt systemadministratoren.",
+	"2FA_NP"		=> "Innlogging feilet  Tofaktorautentiseringskode var ikke tilstede. Vennligst prøv på nytt.",
+	"2FA_INV"		=> "Innlogging feilet  Tofaktorautentiseringskode var feil. Vennligst prøv på nytt.",
+	"2FA_FATAL"	=> "Kritisk feil  Vennligst kontakt systemadministratoren.",
 ));
 
 //Redirect Messages - These get a plus between each word
@@ -312,13 +312,13 @@ $lang = array_merge($lang, array(
 	"VER_RESEND"	=> "Send ny e-post med verifisering",
 	"VER_AGAIN"		=> "Skriv inn e-postadressen din og prøv igjen",
 	"VER_PAGE"		=> "<li>Sjekk e-posten din og kikk på lenken som du har fått tilsendt</li><li>Ferdig</li>",
-	"VER_RES_SUC" => "<p>En verifiseringslenke har blitt sendt til e-postadressen din.</p><p>Trykk på lenken i e-posten for å fullføre verifiseringen. Se i søppelpost dersom e-posten ikke er i innboksen din.</p><p>Verifiseringslenker er kun gyldige i ",
+	"VER_RES_SUC" => " En verifiseringslenke har blitt sendt til e-postadressen din.  Trykk på lenken i e-posten for å fullføre verifiseringen. Se i søppelpost dersom e-posten ikke er i innboksen din.  Verifiseringslenker er kun gyldige i ",
 	"VER_OOPS"		=> "Oops...noe gikk galt, kanskje du brukte en utgått link. Trykk under for å prøve på nytt",
 	"VER_RESET"		=> "Passordet ditt har blitt nullstilt!",
 	"VER_INS"			=> "<li>Skriv inn e-postadressen og klikk nullstill</li> <li>Se i e-posten din og klikk på lenken som du har fått tilsendt.</li>
 												<li>Følg instruksjonene som vises på skjermen</li>",
-	"VER_SENT"		=> "<p>Link for å nullstille passordet ditt har blitt sendt til e-postadressen din.</p>
-			    							<p>Trykk på linken i e-posten for å nullstille passordet ditt. Se i søppelpost dersom e-posten ikke ligger i innboksen din.</p><p>Passordlenker er kun gyldige i ",
+	"VER_SENT"		=> " Link for å nullstille passordet ditt har blitt sendt til e-postadressen din. 
+			    							 Trykk på linken i e-posten for å nullstille passordet ditt. Se i søppelpost dersom e-posten ikke ligger i innboksen din.  Passordlenker er kun gyldige i ",
 	"VER_PLEASE"	=> "Vennligst bytt passordet ditt",
 ));
 
@@ -333,12 +333,12 @@ $lang = array_merge($lang, array(
 	"SET_NOCHANGE"	=> "Administratoren har deaktivert endring av brukernavn.",
 	"SET_ONECHANGE"	=> "Administratoren har satt opp endring av brukernavn til å kun kunne skje en gang, og du har allerede endret brukernavnet en gang.",
 
-	"SET_GRAVITAR"	=> "<strong>Har du lyst til å endre profilbildet? </strong><br> Besøk <a href='https://en.gravatar.com/'>https://en.gravatar.com/</a> og opprett en konto med samme e-postadresse som du har på denne nettsiden. Det fungerer på millioner av nettsider. Det er raskt og enkelt!",
+	"SET_GRAVITAR"	=> "Har du lyst til å endre profilbildet?  <br> Besøk <a href='https://en.gravatar.com/'>https://en.gravatar.com/</a> og opprett en konto med samme e-postadresse som du har på denne nettsiden. Det fungerer på millioner av nettsider. Det er raskt og enkelt!",
 
-	"SET_NOTE1"			=> "<p><strong>Vennligst merk</strong> det foreligger en ventende anmodning for oppdatering av e-postadressen din til",
+	"SET_NOTE1"			=> " Vennligst merk  det foreligger en ventende anmodning for oppdatering av e-postadressen din til",
 
-	"SET_NOTE2"			=> ".</p><p>Vennligst bruk verifiseringen tilsendt på e-post for å fullføre denne forespørselen.</p>
-		<p>Dersom du trenger en ny verifiseringse-post, vennligst skriv inn e-posten over og utfør forespørselen på nytt.</p>",
+	"SET_NOTE2"			=> ".  Vennligst bruk verifiseringen tilsendt på e-post for å fullføre denne forespørselen. 
+		 Dersom du trenger en ny verifiseringse-post, vennligst skriv inn e-posten over og utfør forespørselen på nytt. ",
 
 	"SET_PW_REQ" 		=> "påkrevd for å endre passord, e-post, eller nullstille PIN",
 	"SET_PW_REQI" 	=> " Må endre passordet ditt",
@@ -354,7 +354,7 @@ $lang = array_merge($lang, array(
 	"ERR_CAP"					=> "Du klarte ikke Captcha-testen, robot!",
 	"ERR_PW_SAME"			=> "Det nye passordet ditt kan ikke være det samme som det gamle",
 	"ERR_PW_FAIL"			=> "Feil ved verifisering av gjeldende passord. Oppdateringsfeil. Vennligst prøv igjen.",
-	"ERR_GOOG"				=> "<strong>MERK:</strong> Dersom du først registrerte deg med en Google eller Facebook konto må du bruke glemt passord-linken for å bytte passordet ditt...hvis ikke du er veldig god til å gjette.",
+	"ERR_GOOG"				=> "MERK:  Dersom du først registrerte deg med en Google eller Facebook konto må du bruke glemt passord-linken for å bytte passordet ditt...hvis ikke du er veldig god til å gjette.",
 	"ERR_EM_VER"			=> "E-postverifisering er ikke aktivert. Vennligst kontakt systemadministratoren.",
 	"ERR_EMAIL_STR"		=> "Noe rart har skjedd. Vennligst verifiser e-postadressen din på nytt. Vi beklager ulempen",
 

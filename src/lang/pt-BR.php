@@ -260,9 +260,9 @@ $lang = array_merge($lang, array(
 	"2FA_ACTIVE" => "Sessões Ativas",
 	"2FA_NOT_FN" => "Nenhuma impressão digital encontrada",
 	"2FA_FP"		=> "Impressão digital",
-	"2FA_NP"		=> "<strong>Falha de Login</strong> Código de autorização de dois fatores não estava presente. Por favor, tente novamente.",
-	"2FA_INV"		=> "<strongFalha de Login</strong> Código de autorização de dois fatores inválido. Por favor, tente novamente.",
-	"2FA_FATAL"	=> "<strong>Erro Grave</strong> Por Favor contate o administrador.",
+	"2FA_NP"		=> "Falha de Login  Código de autorização de dois fatores não estava presente. Por favor, tente novamente.",
+	"2FA_INV"		=> "<strongFalha de Login  Código de autorização de dois fatores inválido. Por favor, tente novamente.",
+	"2FA_FATAL"	=> "Erro Grave  Por Favor contate o administrador.",
 ));
 
 //Redirect Messages - These get a plus between each word
@@ -307,13 +307,13 @@ $lang = array_merge($lang, array(
 	"VER_RESEND"	=> "Reenviar o Email de verificação",
 	"VER_AGAIN"		=> "Escreva seu endereço de e-mail e tente novamente",
 	"VER_PAGE"		=> "<li>Verifique seu e-mail e clique no link que é enviado para você</li><li>Pronto</li>",
-	"VER_RES_SUC" => "<p>Seu link de confirmação foi enviado para seu endereço de e-mail.</p><p> Clique no link do e-mail para concluir a verificação. Certifique-se de verificar sua pasta de spam se o e-mail não estiver na sua caixa de entrada. </ P> <p> Os links de verificação só são válidos por",
+	"VER_RES_SUC" => " Seu link de confirmação foi enviado para seu endereço de e-mail.   Clique no link do e-mail para concluir a verificação. Certifique-se de verificar sua pasta de spam se o e-mail não estiver na sua caixa de entrada. </ P>   Os links de verificação só são válidos por",
 	"VER_OOPS"		=> "Ops ... algo deu errado, talvez um link de reinicialização antigo em que você clicou. Clique abaixo para tentar novamente",
 	"VER_RESET"		=> "Sua senha foi alterada!",
 	"VER_INS"			=> "<li> Insira seu endereço de e-mail e clique em Redefinir </ li> <li> Verifique seu e-mail e clique no link que é enviado para você. </ li>
 												<li> Siga as instruções da tela </ li>",
-	"VER_SENT"		=> "<p>Seu link de redefinição de senha foi enviado para o seu endereço de e-mail.</p>
-			    							<p>Clique no link no email para redefinir sua senha. Certifique-se de verificar sua pasta de spam se o e-mail não estiver na sua caixa de entrada. </p> <p> Os links de redefinição são válidos por",
+	"VER_SENT"		=> " Seu link de redefinição de senha foi enviado para o seu endereço de e-mail. 
+			    							 Clique no link no email para redefinir sua senha. Certifique-se de verificar sua pasta de spam se o e-mail não estiver na sua caixa de entrada.     Os links de redefinição são válidos por",
 	"VER_PLEASE"	=> "Por Favor Altere Sua Senha",
 ));
 
@@ -328,12 +328,12 @@ $lang = array_merge($lang, array(
 	"SET_NOCHANGE"	=> "O administrador desativou a alteração de nomes de usuário.",
 	"SET_ONECHANGE"	=> "O Administrador definiu alterações de nome de usuário para ocorrer apenas uma vez e você já fez isso.",
 
-	"SET_GRAVITAR"	=> "<strong>Deseja modificar sua imagem de perfil? </strong><br> Visite <a href='https://en.gravatar.com/'>https://en.gravatar.com/</a>e configure uma conta com o mesmo e-mail que você usou neste site. Ele funciona em milhões de sites. É rápido e fácil!",
+	"SET_GRAVITAR"	=> "Deseja modificar sua imagem de perfil?  <br> Visite <a href='https://en.gravatar.com/'>https://en.gravatar.com/</a>e configure uma conta com o mesmo e-mail que você usou neste site. Ele funciona em milhões de sites. É rápido e fácil!",
 
-	"SET_NOTE1"			=> "<p><strong>Por favor repare</strong> há uma solicitação pendente para atualizar seu e-mail para",
+	"SET_NOTE1"			=> " Por favor repare  há uma solicitação pendente para atualizar seu e-mail para",
 
-	"SET_NOTE2"			=> ".</p><p>Por favor, use o e-mail de verificação para concluir esta solicitação.</p>
-		<p>Se você precisar de um novo e-mail de verificação, insira o e-mail acima e envie a solicitação novamente.</p>",
+	"SET_NOTE2"			=> ".  Por favor, use o e-mail de verificação para concluir esta solicitação. 
+		 Se você precisar de um novo e-mail de verificação, insira o e-mail acima e envie a solicitação novamente. ",
 
 	"SET_PW_REQ" 		=> "necessário para alterar senha, e-mail ou redefinir o PIN",
 	"SET_PW_REQI" 	=> "Necessário para alterar sua senha",
@@ -349,7 +349,7 @@ $lang = array_merge($lang, array(
 	"ERR_CAP"					=> "Você falhou no Teste Captcha, Robô!",
 	"ERR_PW_SAME"			=> "Sua senha antiga não pode ser igual à sua nova senha",
 	"ERR_PW_FAIL"			=> "A verificação da senha atual falhou. Atualização falhou. Por favor, tente novamente.",
-	"ERR_GOOG"				=> "<strong>ATENÇÃO:</strong>Se você se inscreveu originalmente com sua conta do Google / Facebook, precisará usar o link de senha esquecida para alterar sua senha ... a menos que seja realmente bom em adivinhar.",
+	"ERR_GOOG"				=> "ATENÇÃO: Se você se inscreveu originalmente com sua conta do Google / Facebook, precisará usar o link de senha esquecida para alterar sua senha ... a menos que seja realmente bom em adivinhar.",
 	"ERR_EM_VER"			=> "A verificação de e-mail não está ativada. Por favor contacte o administrador do sistema.",
 	"ERR_EMAIL_STR"		=> "Algo está estranho. Por favor, verifique novamente o seu email. Lamentamos o inconveniente",
 ));

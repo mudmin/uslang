@@ -256,9 +256,9 @@ $lang = array_merge($lang, array(
 	"2FA_EXP"		=> "Expired 1 fingerprint, eh?",
 	"2FA_EXPD"	=> "Expired, eh?",
 	"2FA_FP"		=> "Fingerprints, eh?",
-	"2FA_NP"		=> "<strong>Login Failed</strong> Two Factor Auth Code was not present. Please try again., eh?",
-	"2FA_INV"		=> "<strong>Login Failed</strong> Two Factor Auth Code was invalid. Please try again., eh?",
-	"2FA_FATAL"	=> "<strong>Fatal Error</strong> Please contact System Admin., eh?",
+	"2FA_NP"		=> "Login Failed  Two Factor Auth Code was not present. Please try again., eh?",
+	"2FA_INV"		=> "Login Failed  Two Factor Auth Code was invalid. Please try again., eh?",
+	"2FA_FATAL"	=> "Fatal Error  Please contact System Admin., eh?",
 	"2FA_EXPS" 	=> "Expires, eh?",
 	"2FA_ACTIVE" => "Active Mooses",
 	"2FA_NOT_FN" => "No Moose Prints Found",
@@ -306,11 +306,11 @@ $lang = array_merge($lang, array(
 	"VER_RESEND"	=> "Resend Verification Email, eh?",
 	"VER_AGAIN"		=> "Enter your email address and try again, eh?",
 	"VER_PAGE"		=> "<li>Check your email and click the link that is sent to you</li><li>Done</li>, eh?",
-	"VER_RES_SUC" => "<p>Your verification link has been sent to your email address.</p><p>Click the link in the email to complete verification. Be sure to check your spam folder if the email isn't in your inbox.</p><p>Verification links are only valid for , eh?",
+	"VER_RES_SUC" => " Your verification link has been sent to your email address.  Click the link in the email to complete verification. Be sure to check your spam folder if the email isn't in your inbox.  Verification links are only valid for , eh?",
 	"VER_OOPS" => "Oops...something went wrong, maybe an old reset link you clicked on. Click below to try again",
 	"VER_RESET" => "Your password has been reset!",
 	"VER_INS" => "<li>Enter your email address and click Reset</li> <li>Check your email and click the link that is sent to you.</li> <li>Follow the on screen instructions</li><li>Get a donut at Tim's</li>",
-	"VER_SENT" => "<p>Your password reset link has been sent to your email address.</p> <p>Click the link in the email to Reset your password. Be sure to check your spam folder if the email isn't in your inbox.</p><p>Reset links are only valid for ",
+	"VER_SENT" => " Your password reset link has been sent to your email address.   Click the link in the email to Reset your password. Be sure to check your spam folder if the email isn't in your inbox.  Reset links are only valid for ",
 	"VER_PLEASE" => "Please reset your password, pretty please",
 ));
 
@@ -325,12 +325,12 @@ $lang = array_merge($lang, array(
 	"SET_NOCHANGE"	=> "The Administrator has disabled changing usernames., eh?",
 	"SET_ONECHANGE"	=> "The Administrator set username changes to occur only once and you have done so already., eh?",
 
-	"SET_GRAVITAR"	=> "<strong>Want to change your profile picture? </strong><br> Visit <a href='https://en.gravatar.com/'>https://en.gravatar.com/</a> and setup an account with the same email you used on this site.It works across millions of sites. It's fast and easy!, eh?",
+	"SET_GRAVITAR"	=> "Want to change your profile picture?  <br> Visit <a href='https://en.gravatar.com/'>https://en.gravatar.com/</a> and setup an account with the same email you used on this site.It works across millions of sites. It's fast and easy!, eh?",
 
-	"SET_NOTE1"			=> "<p><strong>Please note</strong> there is a pending request to update your email to, eh?",
+	"SET_NOTE1"			=> " Please note  there is a pending request to update your email to, eh?",
 
-	"SET_NOTE2"			=> ".</p><p>Please use the verification email to complete this request.</p>
-		<p>If you need a new verification email, please re-enter the email above and submit the request again.</p>, eh?",
+	"SET_NOTE2"			=> ".  Please use the verification email to complete this request. 
+		 If you need a new verification email, please re-enter the email above and submit the request again. , eh?",
 
 	"SET_PW_REQ" 		=> "required for changing password, email, or resetting PIN, eh?",
 	"SET_PW_REQI" 	=> "Required to change your password, eh?",
@@ -346,7 +346,7 @@ $lang = array_merge($lang, array(
 	"ERR_CAP"					=> "You failed the Captcha Test, Robot!, eh?",
 	"ERR_PW_SAME"			=> "Your old password cannot be the same as your new, eh?",
 	"ERR_PW_FAIL"			=> "Current password verification failed. Update failed. Please try again., eh?",
-	"ERR_GOOG"				=> "<strong>NOTE:</strong> If you originally signed up with your Google/Facebook account, you will need to use the forgot password link to change your password...unless you're really good at guessing., eh?",
+	"ERR_GOOG"				=> "NOTE:  If you originally signed up with your Google/Facebook account, you will need to use the forgot password link to change your password...unless you're really good at guessing., eh?",
 	"ERR_EM_VER"			=> "Email verification is not enabled. Please contact the System Administrator., eh?",
 	"ERR_EMAIL_STR"		=> "Something is strange. Please re-verify your email. We are sorry for the inconvenience, eh?",
 ));

@@ -254,9 +254,9 @@ $lang = array_merge($lang, array(
 	"2FA_EXP"		=> "A expirat o amprentă digitală",
 	"2FA_EXPD"	=> "Expirat",
 	"2FA_FP"		=> "Amprente",
-	"2FA_NP"		=> "<strong>Autentificare esuata</strong> Codul de confirmare nu era prezent. Vă rugăm să încercați din nou.",
-	"2FA_INV"		=> "<strong>Autentificare esuata/strong> Codul de confirmare este nevalid. Vă rugăm să încercați din nou.",
-	"2FA_FATAL"	=> "<strong>Eroare fatala</strong> Contactați administratorul de problema.",
+	"2FA_NP"		=> "Autentificare esuata  Codul de confirmare nu era prezent. Vă rugăm să încercați din nou.",
+	"2FA_INV"		=> "Autentificare esuata/strong> Codul de confirmare este nevalid. Vă rugăm să încercați din nou.",
+	"2FA_FATAL"	=> "Eroare fatala  Contactați administratorul de problema.",
 	"2FA_EXPS" => "Expira",
 	"2FA_ACTIVE" => "Sesiuni active",
 	"2FA_NOT_FN" => "Nu au fost gasite amprente digitale",
@@ -304,13 +304,13 @@ $lang = array_merge($lang, array(
 	"VER_RESEND"	=> "Retrimite email-ul de verificare",
 	"VER_AGAIN"		=> "Introduceți adresa de e-mail și încercați din nou",
 	"VER_PAGE"		=> "<li>Verificați adresa de e-mail și faceți clic pe link-ul care vi-a fost trimis</li><li>Terminat</li>",
-	"VER_RES_SUC" => "<p>Linkul dvs. de verificare a fost trimis la adresa dvs. de e-mail.</p><p>Dați clic pe linkul din e-mail pentru a finaliza verificarea. Asigurați-vă că verificați dosarul dvs. de spam dacă e-mailul nu este în căsuța de e-mail.</p><p>Link-urile de verificare sunt valabile numai pentru ",
+	"VER_RES_SUC" => " Linkul dvs. de verificare a fost trimis la adresa dvs. de e-mail.  Dați clic pe linkul din e-mail pentru a finaliza verificarea. Asigurați-vă că verificați dosarul dvs. de spam dacă e-mailul nu este în căsuța de e-mail.  Link-urile de verificare sunt valabile numai pentru ",
 	"VER_OOPS" => "Oops ... ceva a mers prost, poate o legătură de resetare veche pe care ați făcut clic. Faceți clic mai jos pentru a încerca din nou.",
 	"VER_RESET" => "Parola ta a fost resetata!",
 
 	"VER_INS" => "<li>Enter your email address and click Reset</li> <li>Check your email and click the link that is sent to you.</li> <li>Follow the on screen instructions</li>",
 
-	"VER_SENT" => "<p>Your password reset link has been sent to your email address.</p> <p>Click the link in the email to Reset your password. Be sure to check your spam folder if the email isn't in your inbox.</p><p>Reset links are only valid for ",
+	"VER_SENT" => " Your password reset link has been sent to your email address.   Click the link in the email to Reset your password. Be sure to check your spam folder if the email isn't in your inbox.  Reset links are only valid for ",
 
 	"VER_PLEASE" => "va rugam sa va resetati parola",
 ));
@@ -326,12 +326,12 @@ $lang = array_merge($lang, array(
 	"SET_NOCHANGE"	=> "Administratorul a dezactivat utilizator.",
 	"SET_ONECHANGE"	=> "Administratorul a setat modificările numelui de utilizator să apară o singură dată și ați făcut deja acest lucru.",
 
-	"SET_GRAVITAR"	=> "<strong>Doriți să modificați imaginea de profil? </strong><br> Vizita <a href='https://en.gravatar.com/'>https://en.gravatar.com/</a> și configurați un cont cu aceleași adrese de e-mail pe care le-ați utilizat pe acest site. Lucrează pe milioane de site-uri. Este rapid și ușor!",
+	"SET_GRAVITAR"	=> "Doriți să modificați imaginea de profil?  <br> Vizita <a href='https://en.gravatar.com/'>https://en.gravatar.com/</a> și configurați un cont cu aceleași adrese de e-mail pe care le-ați utilizat pe acest site. Lucrează pe milioane de site-uri. Este rapid și ușor!",
 
-	"SET_NOTE1"			=> "<p><strong>Vă rugăm să rețineți</strong> există o solicitare în așteptare pentru a vă actualiza adresa de e-mail",
+	"SET_NOTE1"			=> " Vă rugăm să rețineți  există o solicitare în așteptare pentru a vă actualiza adresa de e-mail",
 
-	"SET_NOTE2"			=> ".</p><p>Utilizați e-mailul de verificare pentru a finaliza această solicitare.</p>
-		<p>Dacă aveți nevoie de un nou e-mail de verificare, reintroduceți e-mailul de mai sus și trimiteți din nou solicitarea.</p>",
+	"SET_NOTE2"			=> ".  Utilizați e-mailul de verificare pentru a finaliza această solicitare. 
+		 Dacă aveți nevoie de un nou e-mail de verificare, reintroduceți e-mailul de mai sus și trimiteți din nou solicitarea. ",
 
 	"SET_PW_REQ" 		=> "necesar pentru schimbarea parolei, a e-mailului sau resetarea codului PIN",
 	"SET_PW_REQI" 	=> "Este necesar să vă schimbați parola",
@@ -347,7 +347,7 @@ $lang = array_merge($lang, array(
 	"ERR_CAP"					=> "Nu ai reușit testul Captcha, Robot!",
 	"ERR_PW_SAME"			=> "Vechea parolă, nu poate fi aceeași cu cea nouă",
 	"ERR_PW_FAIL"			=> "Verificarea parolei curentă a eșuat Actualizare esuata. Vă rugăm să încercați din nou.",
-	"ERR_GOOG"				=> "<strong>NOTĂ:</strong> Dacă v-ați înscris inițial în contul dvs. Google / Facebook, va trebui să utilizați linkul de parolă uitat pentru a vă schimba parola ... cu excepția cazului în care sunteți foarte bun la ghicit.",
+	"ERR_GOOG"				=> "NOTĂ:  Dacă v-ați înscris inițial în contul dvs. Google / Facebook, va trebui să utilizați linkul de parolă uitat pentru a vă schimba parola ... cu excepția cazului în care sunteți foarte bun la ghicit.",
 	"ERR_EM_VER"			=> "Verificarea e-mailului nu este activată. Contactați administratorul de sistem.",
 	"ERR_EMAIL_STR"		=> "Ceva este ciudat. Verificați din nou e-mailul. Ne cerem scuze pentru neplăceri",
 ));

@@ -265,9 +265,9 @@ $lang = array_merge($lang, array(
 	"2FA_ACTIVE" => "Aktív Munkamenetek",
 	"2FA_NOT_FN" => "Nincsenek ujjlenyomatok",
 	"2FA_FP"		=> "Ujjlenyomatok",
-	"2FA_NP"		=> "<strong>Sikertelen Bejelentkezés</strong> Nincs kétfaktoros hitelesítő kód. Kérlek próbáld újra.",
-	"2FA_INV"		=> "<strong>Sikertelen Bejelentkezés</strong> Érvénytelen kétfaktoros hitelesítő kód. Kérlek próbáld újra.",
-	"2FA_FATAL"	=> "<strong>Végzetes Hiba</strong> Kérlek fordulj az adminisztrátorhoz.",
+	"2FA_NP"		=> "Sikertelen Bejelentkezés  Nincs kétfaktoros hitelesítő kód. Kérlek próbáld újra.",
+	"2FA_INV"		=> "Sikertelen Bejelentkezés  Érvénytelen kétfaktoros hitelesítő kód. Kérlek próbáld újra.",
+	"2FA_FATAL"	=> "Végzetes Hiba  Kérlek fordulj az adminisztrátorhoz.",
 ));
 
 //Redirect Messages - These get a plus between each word
@@ -312,13 +312,13 @@ $lang = array_merge($lang, array(
 	"VER_RESEND"	=> "Hitelesítő e-mail újraküldése",
 	"VER_AGAIN"		=> "Add meg az e-mail címed, és próbáld újra",
 	"VER_PAGE"		=> "<li>Ellenőrizd az e-mail címed, és kattints a kapott hivatkozásra</li><li>Kész</li>",
-	"VER_RES_SUC" => "<p>A hitelesítő hivatkozást elküldtük az e-mail címedre.</p><p>A hitelesítés befejezéséhez kattints az e-mailben található hivatkozásra. Nézd meg a Spam vagy Junk mappákat is, ha az e-mailt nem találod a postafiókodban.</p><p>A hitelesítő hivatkozás lejárati ideje: ",
+	"VER_RES_SUC" => " A hitelesítő hivatkozást elküldtük az e-mail címedre.  A hitelesítés befejezéséhez kattints az e-mailben található hivatkozásra. Nézd meg a Spam vagy Junk mappákat is, ha az e-mailt nem találod a postafiókodban.  A hitelesítő hivatkozás lejárati ideje: ",
 	"VER_OOPS"		=> "Hoppá... valami baj van, előfordulhat, hogy egy régi hivatkozásra kattintottál. Kattints az alábbi gombra, és próbáld újra",
 	"VER_RESET"		=> "Új jelszó lett beállítva a fiókodhoz!",
 	"VER_INS"			=> "<li>Add meg az e-mail címed, majd kattints a Visszaállítás gombra</li> <li>Ellenőrizd az e-mail címed, és kattints a kapott hivatkozásra.</li>
 												<li>Kövesd a képernyőn megjelenő utasításokat</li>",
-	"VER_SENT"		=> "<p>Az új jelszó megadásához szükséges hivatkozást elküldtük az e-mail címedre.</p>
-			    							<p>Kattinst a levélben található hivatkozásra új jelszó beállításához. Nézd meg a Spam vagy Junk mappákat is, ha az e-mailt nem találod a postafiókodban.</p><p>A jelszó visszaállító hivatkozás lejárati ideje ",
+	"VER_SENT"		=> " Az új jelszó megadásához szükséges hivatkozást elküldtük az e-mail címedre. 
+			    							 Kattinst a levélben található hivatkozásra új jelszó beállításához. Nézd meg a Spam vagy Junk mappákat is, ha az e-mailt nem találod a postafiókodban.  A jelszó visszaállító hivatkozás lejárati ideje ",
 	"VER_PLEASE"	=> "Kérlek, állíts be új jelszót",
 ));
 
@@ -333,12 +333,12 @@ $lang = array_merge($lang, array(
 	"SET_NOCHANGE"	=> "Az adminisztrátor letiltotta a felhasználónevek módosítását.",
 	"SET_ONECHANGE"	=> "Az adminisztrátor letiltotta a felhasználónevek többszöri módosítását és te már egyszer módosítottad azt.",
 
-	"SET_GRAVITAR"	=> "<strong>Szeretnéd megváltoztatni a profilképed? </strong><br> Látogass el ide <a href='https://hu.gravatar.com/'>https://hu.gravatar.com/</a> és regisztrálj be egy fiókot ugyanazzal az e-mail címmel, amit ezen a webhelyen is használsz. Gyors és egyszerű!",
+	"SET_GRAVITAR"	=> "Szeretnéd megváltoztatni a profilképed?  <br> Látogass el ide <a href='https://hu.gravatar.com/'>https://hu.gravatar.com/</a> és regisztrálj be egy fiókot ugyanazzal az e-mail címmel, amit ezen a webhelyen is használsz. Gyors és egyszerű!",
 
-	"SET_NOTE1"			=> "<p><strong>Kérlek vedd figyelembe,</strong> hogy függőben van egy kérés az e-mail címed megváltoztatásához a következőre: ",
+	"SET_NOTE1"			=> " Kérlek vedd figyelembe,  hogy függőben van egy kérés az e-mail címed megváltoztatásához a következőre: ",
 
-	"SET_NOTE2"			=> ".</p><p>Kérlek, használd a hitelesítő e-mailt a folyamat befejezéséhez.</p>
-		<p>Ha új hitelesítő e-mailt szeretnél, írd be újra a fenti e-mail címet, és küldd el újra a kérést.</p>",
+	"SET_NOTE2"			=> ".  Kérlek, használd a hitelesítő e-mailt a folyamat befejezéséhez. 
+		 Ha új hitelesítő e-mailt szeretnél, írd be újra a fenti e-mail címet, és küldd el újra a kérést. ",
 
 	"SET_PW_REQ" 		=> " e-mail vagy jelszó megváltoztatásához, PIN-kód visszaállításához szükséges",
 	"SET_PW_REQI" 	=> "Muszáj megváltoztatnod a jelszavadat",
@@ -354,7 +354,7 @@ $lang = array_merge($lang, array(
 	"ERR_CAP"					=> "Nem sikerült a Captcha teszt, robot!",
 	"ERR_PW_SAME"			=> "A régi jelszó nem lehet ugyanaz, mint az új",
 	"ERR_PW_FAIL"			=> "Nem sikerült a jelenlegi jelszó ellenőrzése. Sikertelen módosítás. Kérlek próbáld újra.",
-	"ERR_GOOG"				=> "<strong>MEGJEGYZÉS:</strong> Ha eredetileg a Google vagy Facebook fiókoddal regisztráltál, akkor a jelszó megváltoztatásához az elfelejtett jelszó linket kell használnod ... kivéve, ha jól tudsz tippelni.",
+	"ERR_GOOG"				=> "MEGJEGYZÉS:  Ha eredetileg a Google vagy Facebook fiókoddal regisztráltál, akkor a jelszó megváltoztatásához az elfelejtett jelszó linket kell használnod ... kivéve, ha jól tudsz tippelni.",
 	"ERR_EM_VER"			=> "Az e-mail hitelesítése nem engedélyezett. Kérlek, fordulj az adminisztrátorhoz.",
 	"ERR_EMAIL_STR"		=> "Valami furcsa. Kérlek, hitelesítsd újra az e-mail címed. Elnézést a kellemetlenségért!",
 ));

@@ -262,9 +262,9 @@ $lang = array_merge($lang, array(
 	"2FA_ACTIVE" => "Aktiva sessioner",
 	"2FA_NOT_FN" => "Inget fingeravtryck hittades",
 	"2FA_FP"		=> "Fingeravtryck",
-	"2FA_NP"		=> "<strong>Login misslyckades</strong> Tvåfaktors autentiseringskod fanns inte. Vänligen försök igen.",
-	"2FA_INV"		=> "<strong>Login misslyckades</strong> Ogiltig tvåfaktors autentiseringskod. Vänligen försök igen.",
-	"2FA_FATAL"	=> "<strong>Allvarligt fel</strong> Vänligen kontakta systemadministratör.",
+	"2FA_NP"		=> "Login misslyckades  Tvåfaktors autentiseringskod fanns inte. Vänligen försök igen.",
+	"2FA_INV"		=> "Login misslyckades  Ogiltig tvåfaktors autentiseringskod. Vänligen försök igen.",
+	"2FA_FATAL"	=> "Allvarligt fel  Vänligen kontakta systemadministratör.",
 ));
 
 //Redirect Messages - These get a plus between each word
@@ -310,13 +310,13 @@ $lang = array_merge($lang, array(
 	"VER_RESEND"	=> "Skicka verifikationsmail igen",
 	"VER_AGAIN"		=> "Skriv in din e-postadress och försök igen",
 	"VER_PAGE"		=> "<li>Kontrollera din e-post och klicka på länken som skickas till dig</li><li>Klart</li>",
-	"VER_RES_SUC" => "<p>En verifieringslänk har skickats till din e-postadress.</p><p>Klicka på länken i e-postmeddelandet för att slutföra verifieringen. Kontrollera din skräppostmapp om e-postmeddelandet inte finns i din inkorg.</p><p>Verifieringslänkar är endast giltiga ",
+	"VER_RES_SUC" => " En verifieringslänk har skickats till din e-postadress.  Klicka på länken i e-postmeddelandet för att slutföra verifieringen. Kontrollera din skräppostmapp om e-postmeddelandet inte finns i din inkorg.  Verifieringslänkar är endast giltiga ",
 	"VER_OOPS"		=> "Ojoj...något gick fel, kan vara en gammal återställningslänk du klickade på. Klicka nedan och försök igen.",
 	"VER_RESET"		=> "Ditt löenord har återställts!",
 	"VER_INS"			=> "<li>Ange din e-postadress och klicka på Återställ</li> <li>Kontrollera din e-post och klicka på länken som skickas till dig.</li>
 												<li>Följ instruktionerna på skärmen</li>",
-	"VER_SENT"		=> "<p>Länken för återställning av lösenord har skickats till din e-postadress.</p>
-			    							<p>Klicka på länken i e-postmeddelandet för att återställa ditt lösenord. Kontrollera din skräppostmapp om e-postmeddelandet inte finns i din inkorg.</p><p>Återställningslänkar gäller endast ",
+	"VER_SENT"		=> " Länken för återställning av lösenord har skickats till din e-postadress. 
+			    							 Klicka på länken i e-postmeddelandet för att återställa ditt lösenord. Kontrollera din skräppostmapp om e-postmeddelandet inte finns i din inkorg.  Återställningslänkar gäller endast ",
 	"VER_PLEASE"	=> "Vänligen återställ ditt lösenord",
 ));
 
@@ -331,12 +331,12 @@ $lang = array_merge($lang, array(
 	"SET_NOCHANGE"	=> "Administratören har avaktiverat möjligheten att byta användarnamn.",
 	"SET_ONECHANGE"	=> "Administratören ställde in användarnamnändringar att inträffa endast en gång och du har redan gjort det.",
 
-	"SET_GRAVITAR"	=> "<strong>Vill du ändra din profilbild? </strong><br> Besök <a href='https://en.gravatar.com/'>https://en.gravatar.com/</a> och konfigurera ett konto med samma e-postmeddelande som du använde på den här webbplatsen. Det fungerar på miljontals webbplatser. Det är snabbt och enkelt!",
+	"SET_GRAVITAR"	=> "Vill du ändra din profilbild?  <br> Besök <a href='https://en.gravatar.com/'>https://en.gravatar.com/</a> och konfigurera ett konto med samma e-postmeddelande som du använde på den här webbplatsen. Det fungerar på miljontals webbplatser. Det är snabbt och enkelt!",
 
-	"SET_NOTE1"			=> "<p><strong>Vänligen observera</strong> det finns en pågående begäran om att uppdatera din e-post till",
+	"SET_NOTE1"			=> " Vänligen observera  det finns en pågående begäran om att uppdatera din e-post till",
 
-	"SET_NOTE2"			=> ".</p><p>Vänligen använd verifieringsmeddelandet för att slutföra denna begäran.</p>
-		<p>Om du behöver ett nytt verifieringsmeddelande, ange e-postmeddelandet igen och skicka in begäran igen.</p>",
+	"SET_NOTE2"			=> ".  Vänligen använd verifieringsmeddelandet för att slutföra denna begäran. 
+		 Om du behöver ett nytt verifieringsmeddelande, ange e-postmeddelandet igen och skicka in begäran igen. ",
 
 	"SET_PW_REQ" 		=> "behövs för byte av lösenord, e-post, eller återställa PIN",
 	"SET_PW_REQI" 	=> "Behövs för att byta lösenord",
@@ -352,7 +352,7 @@ $lang = array_merge($lang, array(
 	"ERR_CAP"					=> "Du falerade Captcha Test, robot!",
 	"ERR_PW_SAME"			=> "Ditt nya lösenord kan inte vara samma som ditt gamla",
 	"ERR_PW_FAIL"			=> "Lösenordsverifieringen misslyckades. Uppdateringen misslyckades. Var god försök igen.",
-	"ERR_GOOG"				=> "<strong>Observera:</strong> Om du ursprungligen registrerade dig med ditt Google / Facebook-konto måste du använda länken Glömt lösenord för att ändra ditt lösenord ... såvida du inte är riktigt bra på att gissa.",
+	"ERR_GOOG"				=> "Observera:  Om du ursprungligen registrerade dig med ditt Google / Facebook-konto måste du använda länken Glömt lösenord för att ändra ditt lösenord ... såvida du inte är riktigt bra på att gissa.",
 	"ERR_EM_VER"			=> "E-postverifiering är inte aktiverad. Vänligen kontakta systemadministratören.",
 	"ERR_EMAIL_STR"		=> "Något är konstigt. Vänligen återverifiera din e-post. Vi beklagar olägenheten",
 

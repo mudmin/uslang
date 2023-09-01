@@ -260,9 +260,9 @@ $lang = array_merge($lang, array(
     "2FA_ACTIVE"     => "Sessioni attive",
     "2FA_NOT_FN"     => "Nessuna impronta digitale trovata",
     "2FA_FP"         => "Impronte digitali",
-    "2FA_NP"         => "<strong>Login Fallito</strong> Codice 2FA non presente. Riprova per favore.",
-    "2FA_INV"         => "<strong>Login Fallito</strong> Codice 2FA non valido. Riprova per favore.",
-    "2FA_FATAL"     => "<strong>Errore fatale</strong> Per favore, contatta l'Amministratore di sistema."
+    "2FA_NP"         => "Login Fallito  Codice 2FA non presente. Riprova per favore.",
+    "2FA_INV"         => "Login Fallito  Codice 2FA non valido. Riprova per favore.",
+    "2FA_FATAL"     => "Errore fatale  Per favore, contatta l'Amministratore di sistema."
 ));
 
 //Redirect Messages - These get a plus between each word
@@ -308,11 +308,11 @@ $lang = array_merge($lang, array(
     "VER_RESEND"     => "Invia di nuovo l'email di verifica.",
     "VER_AGAIN"     => "Inserisci il tuo indirizzo email e riprova",
     "VER_PAGE"         => "<li>Controlla la tua email e clicca sul link che ti è stato inviato</li><li>Fatto</li>",
-    "VER_RES_SUC"     => "<p>Il tuo link di verifica &egrave; stato inviato al tuo indirizzo email.</p><p>Clicca sul link inviato per completare la verifica. Assicurati di controllare la tua cartella spam se l'e-mail non si trova nella tua casella di posta.</p><p>I link di verifica sono validi solo per ",
+    "VER_RES_SUC"     => " Il tuo link di verifica &egrave; stato inviato al tuo indirizzo email.  Clicca sul link inviato per completare la verifica. Assicurati di controllare la tua cartella spam se l'e-mail non si trova nella tua casella di posta.  I link di verifica sono validi solo per ",
     "VER_OOPS"         => "Mannaggia... sembra che qualcosa sia andato storto. Forse hai cliccato su un vecchio link di reset. Clicca qui sotto per riprovare",
     "VER_RESET"     => "La tua password &egrave; stata resettata!",
     "VER_INS"         => "<li>Inserisci il tuo indirizzo email e clicca su Ripristina</li> <li>Controlla la tua email e clicca sul link che ti &egrave; stato inviato.</li> <li>Seguire le istruzioni indicate a schermo</li>",
-    "VER_SENT"         => "<p>Il link per la reimpostazione della password &egrave; stato inviato alla tua email.</p> <p>Clicca sul link nell'e-mail per reimpostare la password. Se non vedi l'e-mail, controlla la tua casella di spam.</p><p>Link valido solo per ",
+    "VER_SENT"         => " Il link per la reimpostazione della password &egrave; stato inviato alla tua email.   Clicca sul link nell'e-mail per reimpostare la password. Se non vedi l'e-mail, controlla la tua casella di spam.  Link valido solo per ",
     "VER_PLEASE"     => "Reimposta la tua password"
 ));
 
@@ -325,9 +325,9 @@ $lang = array_merge($lang, array(
     "SET_UPDATE"         => "Aggiorna la tua configurazione utente",
     "SET_NOCHANGE"         => "L'amministratore ha disattivato la modifica dei nomi utente.",
     "SET_ONECHANGE"     => "L'amministratore ha stabilito che le modifiche al nome utente possono essere apportate una sola volta e l'hai gi&agrave; fatto.",
-    "SET_GRAVITAR"         => "<strong>Vuoi cambiare la foto del tuo profilo? </strong><br> Visita <a href='https://en.gravatar.com/'>https://en.gravatar.com/</a>e crea un account con la stessa email che hai usato su questo sito. Sono presenti in milioni di siti. &Egrave; veloce e semplice!",
-    "SET_NOTE1"         => "<p><strong>Attenzione prego,</strong> C'&egrave; una richiesta in sospeso per aggiornare la tua email a",
-    "SET_NOTE2"         => ".</p><p>Si prega di utilizzare l'e-mail di verifica per completare questa richiesta.</p> <p>Se hai bisogno di una nuova email di verifica, ridigita l'email precedente e invia nuovamente la richiesta.</p>",
+    "SET_GRAVITAR"         => "Vuoi cambiare la foto del tuo profilo?  <br> Visita <a href='https://en.gravatar.com/'>https://en.gravatar.com/</a>e crea un account con la stessa email che hai usato su questo sito. Sono presenti in milioni di siti. &Egrave; veloce e semplice!",
+    "SET_NOTE1"         => " Attenzione prego,  C'&egrave; una richiesta in sospeso per aggiornare la tua email a",
+    "SET_NOTE2"         => ".  Si prega di utilizzare l'e-mail di verifica per completare questa richiesta.   Se hai bisogno di una nuova email di verifica, ridigita l'email precedente e invia nuovamente la richiesta. ",
     "SET_PW_REQ"         => "obbligatorio per cambiare password, e-mail o reimpostare il PIN",
     "SET_PW_REQI"         => "Obbligatorio per cambiare password"
 
@@ -342,7 +342,7 @@ $lang = array_merge($lang, array(
     "ERR_CAP"             => "Non hai superato il test di prova umana, Robot!",
     "ERR_PW_SAME"         => "La tua password precedente non pu&ograve; essere la stessa di quella nuova",
     "ERR_PW_FAIL"         => "Mancata verifica della password corrente. Aggiornamento fallito. Per favore riprova.",
-    "ERR_GOOG"             => "<strong>ATTENZIONE: </ strong> se hai effettuato l'accesso con il tuo account Google/Facebook dall'inizio, dovrai usare il link di cancellazione del codice d'accesso per cambiare la tua password ... a meno che tu non sia veramente bravo a indovinare.",
+    "ERR_GOOG"             => "ATTENZIONE: </ strong> se hai effettuato l'accesso con il tuo account Google/Facebook dall'inizio, dovrai usare il link di cancellazione del codice d'accesso per cambiare la tua password ... a meno che tu non sia veramente bravo a indovinare.",
     "ERR_EM_VER"         => "La verifica via email non &egrave; abilitata. Per favore, contatta l'amministratore del sito.",
     "ERR_EMAIL_STR"     => "C'&egrave; qualcosa di strano. Per favore ricontrolla la tua email. Ci scusiamo per l'inconveniente"
 

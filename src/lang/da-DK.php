@@ -260,9 +260,9 @@ $lang = array_merge($lang, array(
 	"2FA_ACTIVE" => "Aktive sessioner",
 	"2FA_NOT_FN" => "Ingen fingeraftryk fundet",
 	"2FA_FP"		=> "Fingeraftryk",
-	"2FA_NP"		=> "<strong>Login fejlede</strong> 2-faktor godkendelse var ikke mulig. Prøv venligst igen.",
-	"2FA_INV"		=> "<strong>Login fejlede</strong> 2-faktor godkendelseskoden var ugyldig. Prøv venligst igen.",
-	"2FA_FATAL"	=> "<strong>Fatal fejl</strong> Kontakt venligst system administratoren",
+	"2FA_NP"		=> "Login fejlede  2-faktor godkendelse var ikke mulig. Prøv venligst igen.",
+	"2FA_INV"		=> "Login fejlede  2-faktor godkendelseskoden var ugyldig. Prøv venligst igen.",
+	"2FA_FATAL"	=> "Fatal fejl  Kontakt venligst system administratoren",
 ));
 
 //Redirect Messages - These get a plus between each word
@@ -308,13 +308,13 @@ $lang = array_merge($lang, array(
 	"VER_RESEND"	=> "Send bekræftelses-e-mail igen",
 	"VER_AGAIN"		=> "Indtast din e-mailadresse, og prøv igen",
 	"VER_PAGE"		=> "<li>Tjek din e-mail, og klik på det link, der er blevet sendt til dig</li><li>Done</li>",
-	"VER_RES_SUC" => "<p>Dit bekræftelseslink er blevet sendt til din e-mailadresse.</p><p>Klik på linket i e-mailen for at fuldføre bekræftelsen. Sørg for at tjekke din Spammappe, hvis e-mailen ikke er i din indbakke.</p><p>Bekræftelseslinks er kun gyldige i ",
+	"VER_RES_SUC" => " Dit bekræftelseslink er blevet sendt til din e-mailadresse.  Klik på linket i e-mailen for at fuldføre bekræftelsen. Sørg for at tjekke din Spammappe, hvis e-mailen ikke er i din indbakke.  Bekræftelseslinks er kun gyldige i ",
 	"VER_OOPS"		=> "Ups... noget gik galt, måske et gammelt nulstillingslink, du klikkede på. Klik nedenfor for at prøve igen",
 	"VER_RESET"		=> "Din adgangskode er blevet nulstillet!",
 	"VER_INS"			=> "<li>Indtast din e-mailadresse, og klik på Nulstil</li> <li>Tjek din e-mail, og klik på det link, der er sendt til dig.</li>
 												<li>Følg vejledningen på skærmen</li>",
-	"VER_SENT"		=> "<p>Dit link til nulstilling af adgangskode er blevet sendt til din e-mailadresse.</p>
-			    							<p>Klik på linket i e-mailen for at nulstille din adgangskode. Sørg for at tjekke din Spammappe, hvis e-mailen ikke er i din indbakke.</p><p>Nulstil links er kun gyldige i ",
+	"VER_SENT"		=> " Dit link til nulstilling af adgangskode er blevet sendt til din e-mailadresse. 
+			    							 Klik på linket i e-mailen for at nulstille din adgangskode. Sørg for at tjekke din Spammappe, hvis e-mailen ikke er i din indbakke.  Nulstil links er kun gyldige i ",
 	"VER_PLEASE"	=> "Nulstil venligst din adgangskode",
 ));
 
@@ -329,12 +329,12 @@ $lang = array_merge($lang, array(
 	"SET_NOCHANGE"	=> "Administratoren har deaktiveret muligheden for ændring af brugernavne.",
 	"SET_ONECHANGE"	=> "Administratoren indstillede brugernavnsændringer til kun at kunne ske én gang, og du har allerede gjort det.",
 
-	"SET_GRAVITAR"	=> "<strong>Vil du ændre dit profilbillede? </strong><br> Besøg <a href='https://en.gravatar.com/'>https://en.gravatar.com/</a> og opsæt en konto med den samme e-mail, som du brugte på dette websted. Det fungerer på tværs af millioner af websteder. Det er hurtigt og nemt!",
+	"SET_GRAVITAR"	=> "Vil du ændre dit profilbillede?  <br> Besøg <a href='https://en.gravatar.com/'>https://en.gravatar.com/</a> og opsæt en konto med den samme e-mail, som du brugte på dette websted. Det fungerer på tværs af millioner af websteder. Det er hurtigt og nemt!",
 
-	"SET_NOTE1"			=> "<p><strong>Bemærk,</strong> at der er en afventende anmodning om at opdatere din e-mail til",
+	"SET_NOTE1"			=> " Bemærk,  at der er en afventende anmodning om at opdatere din e-mail til",
 
-	"SET_NOTE2"			=> ".</p><p>Brug bekræftelses-e-mailen til at fuldføre denne anmodning.</p>
-		<p>Hvis du har brug for en ny bekræftelses-e-mail, skal du indtaste e-mailen ovenfor igen og indsende anmodningen igen.</p>",
+	"SET_NOTE2"			=> ".  Brug bekræftelses-e-mailen til at fuldføre denne anmodning. 
+		 Hvis du har brug for en ny bekræftelses-e-mail, skal du indtaste e-mailen ovenfor igen og indsende anmodningen igen. ",
 
 	"SET_PW_REQ" 		=> "kræves for at ændre adgangskode, e-mail eller nulstille pinkode",
 	"SET_PW_REQI" 	=> "Påkrævet for at ændre din adgangskode",
@@ -350,7 +350,7 @@ $lang = array_merge($lang, array(
 	"ERR_CAP"					=> "Du dumpede Captcha-testen, robot!",
 	"ERR_PW_SAME"			=> "Din gamle adgangskode kan ikke være den samme som din nye",
 	"ERR_PW_FAIL"			=> "Den aktuelle adgangskodebekræftelse mislykkedes. Opdateringen mislykkedes. Prøv venligst igen.",
-	"ERR_GOOG"				=> "<strong>NOTE:</strong> Hvis du oprindeligt tilmeldte dig med din Google / Facebook-konto, skal du bruge linket til Glemt adgangskode, for at ændre din adgangskode... medmindre du er rigtig god til at gætte.",
+	"ERR_GOOG"				=> "NOTE:  Hvis du oprindeligt tilmeldte dig med din Google / Facebook-konto, skal du bruge linket til Glemt adgangskode, for at ændre din adgangskode... medmindre du er rigtig god til at gætte.",
 	"ERR_EM_VER"			=> "E-mailbekræftelse er ikke aktiveret. Kontakt systemadministratoren.",
 	"ERR_EMAIL_STR"		=> "Noget er mærkeligt. Bekræft venligst din e-mail igen. Vi beklager ulejligheden",
 

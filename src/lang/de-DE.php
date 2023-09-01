@@ -242,9 +242,9 @@ $lang = array_merge($lang, array(
 	"2FA_EXP"		=> "1 Fingerabdruck ist abgelaufen",
 	"2FA_EXPD"	=> "Abgelaufen",
 	"2FA_FP"		=> "Fingerabdruck",
-	"2FA_NP"		=> "<strong>Anmeldung fehlgeschlagen</strong> 2Faktor-Authentisierungscode fehlt. Bitte erneut versuchen.",
-	"2FA_INV"		=> "<strong>Anmeldung fehlgeschlagen</strong> 2Faktor-Authentisierungscode ist nicht gültig. Bitte erneut versuchen.",
-	"2FA_FATAL"	=> "<strong>Unbehebbarer+Fehler</strong> Systemadministrator bitte kontaktieren.",
+	"2FA_NP"		=> "Anmeldung fehlgeschlagen  2Faktor-Authentisierungscode fehlt. Bitte erneut versuchen.",
+	"2FA_INV"		=> "Anmeldung fehlgeschlagen  2Faktor-Authentisierungscode ist nicht gültig. Bitte erneut versuchen.",
+	"2FA_FATAL"	=> "Unbehebbarer+Fehler  Systemadministrator bitte kontaktieren.",
 	"2FA_EXPS"	=> "läuft ab",
 	"2FA_ACTIVE" => "Aktive Sitzungen",
 	"2FA_NOT_FN" => "Keine Fingerabdrücke gefunden",
@@ -292,11 +292,11 @@ $lang = array_merge($lang, array(
 	"VER_RESEND"	=> "Verifizierungsemail neu senden",
 	"VER_AGAIN"		=> "Emailadresse nochmal eingeben, und erneut versuchen.",
 	"VER_PAGE"		=> "<li>Wir haben Ihnen einen Link per Email gesendet</li><li>Fertig</li>",
-	"VER_RES_SUC" => "<p>Ihre Anfrage wurde erhalten. Prüfen Sie bitte Ihren Posteingang, um die Verifizierung auszuführen. Prüfen Sie Bitte Ihren Spam-Ordner, falls Sie die Email im Posteingang nicht finden können.</p><p>Gültigkeit des Verifizierungslinks: ",
+	"VER_RES_SUC" => " Ihre Anfrage wurde erhalten. Prüfen Sie bitte Ihren Posteingang, um die Verifizierung auszuführen. Prüfen Sie Bitte Ihren Spam-Ordner, falls Sie die Email im Posteingang nicht finden können.  Gültigkeit des Verifizierungslinks: ",
 	"VER_OOPS" 		=> "Oh je! Etwas ist schiefgegengen, Vielleicht wurde ein abgelaufener Reset-Link geklickt. Bitte unten klicken, um neu zu versuchen",
 	"VER_RESET" 	=> "Ihr Passwort wurde zurückgesetzt!",
 	"VER_INS" 		=> "<li>Emailadresse eingeben und auf zurücksetzen klicken</li> <li>Posteingang prüfen und auf den Reset-Link Klicken.</li> <li>Bildschirmanweisungen folgen</li>",
-	"VER_SENT" 		=> "<p>Einen Link zur Passwortrücksetzung wurde Ihnen per Email gschickt.</p> <p>Bitte darauf klicken, um Ihr Passwort zurück zu setzen. Prüfen Sie Bitte Ihren Spam-Ordner, falls Sie die Email im Posteingang nicht finden können.</p><p>Gültigkeit des Verifizierungslinks: ",
+	"VER_SENT" 		=> " Einen Link zur Passwortrücksetzung wurde Ihnen per Email gschickt.   Bitte darauf klicken, um Ihr Passwort zurück zu setzen. Prüfen Sie Bitte Ihren Spam-Ordner, falls Sie die Email im Posteingang nicht finden können.  Gültigkeit des Verifizierungslinks: ",
 	"VER_PLEASE" => "Bitte setzen Sie Ihr Passwort zurück",
 ));
 
@@ -311,12 +311,12 @@ $lang = array_merge($lang, array(
 	"SET_NOCHANGE"	=> "Änderung des Benutzername ist deaktiviert.",
 	"SET_ONECHANGE"	=> "Benutzername kann nur einmal geändert werden. Ihr Benutzername wurden bereits einmal geändert.",
 
-	"SET_GRAVITAR"	=> "<strong>Wollen Sie Ihr Profilbild ändern? </strong><br> Bitte ein Konto auf <a href='https://en.gravatar.com/'>https://en.gravatar.com/</a> mit der selben Emailadresse erstellen. Es funktioniert auf vielen Websiten. Es geht schnell und einfach!",
+	"SET_GRAVITAR"	=> "Wollen Sie Ihr Profilbild ändern?  <br> Bitte ein Konto auf <a href='https://en.gravatar.com/'>https://en.gravatar.com/</a> mit der selben Emailadresse erstellen. Es funktioniert auf vielen Websiten. Es geht schnell und einfach!",
 
-	"SET_NOTE1"			=> "<p><strong>Hinweis</strong> Wir haben eine ausstehende Anfrage, Ihre Emailadresse nach",
+	"SET_NOTE1"			=> " Hinweis  Wir haben eine ausstehende Anfrage, Ihre Emailadresse nach",
 
-	"SET_NOTE2"			=> ".</p><p> zu ändern. Bitte den Link in der Verifizierungsemail benutzen um Ihre Anfrage fort zu setzen.</p>
-		<p>Um die Verifizierungsemail nochmal zu erhalten, Geben Sie bitte Ihre Emailadresse oben ein, und die Formular neu senden.</p>",
+	"SET_NOTE2"			=> ".   zu ändern. Bitte den Link in der Verifizierungsemail benutzen um Ihre Anfrage fort zu setzen. 
+		 Um die Verifizierungsemail nochmal zu erhalten, Geben Sie bitte Ihre Emailadresse oben ein, und die Formular neu senden. ",
 
 	"SET_PW_REQ" 		=> "Benötigt, um Ihr Passwort, PIN, oder Emailadresse zu ändern",
 	"SET_PW_REQI" 	=> "Benötigt, um Ihr Passwort zu ändern",
@@ -332,7 +332,7 @@ $lang = array_merge($lang, array(
 	"ERR_CAP"					=> "Captcha-Test nicht bestanden, Roboter!",
 	"ERR_PW_SAME"			=> "Das neue Passwort muss anders als das alte Passwort sein.",
 	"ERR_PW_FAIL"			=> "Altes Passwort stimmt nicht. Aktualisierung fehlgeschlagen. Bitte erneut versuchen.",
-	"ERR_GOOG"				=> "<strong>Hinweis:</strong> Falls Sie sich mit Ihrem Google/Facebook Konto registriert haben, müssen sie den - Passwort vergessen - Link benutzen, um Ihr Passwort zu ändern, es sei denn, dass Sie richtig gut raten können",
+	"ERR_GOOG"				=> "Hinweis:  Falls Sie sich mit Ihrem Google/Facebook Konto registriert haben, müssen sie den - Passwort vergessen - Link benutzen, um Ihr Passwort zu ändern, es sei denn, dass Sie richtig gut raten können",
 	"ERR_EM_VER"			=>  "Email&uuml;berpr&uuml;fung ist nicht aktiviert. Bitte Systemadministrator kontaktieren.",
 	"ERR_EMAIL_STR"		=> "Etwas stimmt nicht. Emailadresse bitte überprüfen. Entschuldigung sie die Unannehmlichkeit.",
 ));

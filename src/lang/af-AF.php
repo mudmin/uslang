@@ -260,9 +260,9 @@ $lang = array_merge($lang, array(
 	"2FA_ACTIVE"	=> "Aktiewe sessies",
 	"2FA_NOT_FN"	=> "Geen vingerafdrukke gevind nie",
 	"2FA_FP"	=> "Vingerafdrukke",
-	"2FA_NP"	=> "<strong>Aanmelding het misluk </strong> Twee faktor-outentiekode was nie beskikbaar nie. Probeer asseblief weer.",
-	"2FA_INV"	=> "<strong> Aanmelding het misluk </strong> Auth-kode met twee faktore was ongeldig. Probeer asseblief weer.",
-	"2FA_FATAL"	=> "<strong> fatale fout </strong> Kontak asseblief die stelselbeheerder.",
+	"2FA_NP"	=> "Aanmelding het misluk   Twee faktor-outentiekode was nie beskikbaar nie. Probeer asseblief weer.",
+	"2FA_INV"	=> " Aanmelding het misluk   Auth-kode met twee faktore was ongeldig. Probeer asseblief weer.",
+	"2FA_FATAL"	=> " fatale fout   Kontak asseblief die stelselbeheerder.",
 ));
 
 //Redirect Messages - These get a plus between each word
@@ -309,15 +309,15 @@ $lang = array_merge($lang, array(
 	"VER_RESEND"		=> "Stuur verifikasie-e-pos weer",
 	"VER_AGAIN"		=> "Voer u e-posadres in en probeer weer",
 	"VER_PAGE"		=> "<li> Gaan u e-pos na en klik op die skakel wat aan u gestuur word </li> <li> Klaar </li>",
-	"VER_RES_SUC" 		=> "<p> U verifikasieskakel is na u e-posadres gestuur. </p> <p> Klik op die skakel in die e-posadres om die verifikasie te voltooi. Kontroleer u strooiposmap as die e-pos nie in u posbus. </p> <p> Verifikasie skakels is slegs geldig vir ",
+	"VER_RES_SUC" 		=> "  U verifikasieskakel is na u e-posadres gestuur.     Klik op die skakel in die e-posadres om die verifikasie te voltooi. Kontroleer u strooiposmap as die e-pos nie in u posbus.     Verifikasie skakels is slegs geldig vir ",
 	"VER_OOPS"		=> "Oeps ... iets het verkeerd gegaan, miskien 'n ou reset-skakel waarop u geklik het. Klik hieronder om weer te probeer",
 	"VER_RESET"		=> "U wagwoord is herstel!",
 	"VER_INS"		=> "<li> Voer u e-posadres in en klik op Herstel </li>
 					<li> Kontroleer u e-posadres en klik op die skakel wat aan u gestuur word. </li>
 					<li> Volg die instruksies op die skerm </li> ",
-	"VER_SENT"		=> "<p> U skakel vir die herstel van wagwoord is na u e-posadres gestuur. </p>
-					<p> Klik op die skakel in die e-pos om u wagwoord terug te stel. Maak seker dat u u strooipos van die strooipos nagaan as die e-pos nie in u posbus is nie. </p>
-					<p> Terugstelskakels is slegs geldig vir ",
+	"VER_SENT"		=> "  U skakel vir die herstel van wagwoord is na u e-posadres gestuur.  
+					  Klik op die skakel in die e-pos om u wagwoord terug te stel. Maak seker dat u u strooipos van die strooipos nagaan as die e-pos nie in u posbus is nie.  
+					  Terugstelskakels is slegs geldig vir ",
 	"VER_PLEASE"		=> "Stel u wagwoord asseblief terug",
 ));
 
@@ -330,10 +330,10 @@ $lang = array_merge($lang, array(
 	"SET_UPDATE"	=> "Dateer u gebruikersinstellings op",
 	"SET_NOCHANGE"	=> "Die administrateur het veranderende gebruikersname uitgeskakel.",
 	"SET_ONECHANGE"	=> "Die administrateur het ingestel dat gebruikersnaamveranderings slegs een keer plaasvind en u het dit al gedoen.",
-	"SET_GRAVITAR"	=> "<strong> Wil u profielfoto verander? </strong> <br>Besoek <a href='https://af.gravatar.com/'>https://en.gravatar.com/</a> en stel 'n rekening op met dieselfde e-pos as wat u op hierdie webwerf gebruik het. Dit werk op miljoene webwerwe. Dit is vinnig en maklik! ",
-	"SET_NOTE1"	=> "<p> <strong> Let wel </strong> daar is 'n hangende versoek om u e-pos op te dateer na",
-	"SET_NOTE2"	=> ". </p> <p> Gebruik die verifikasie-e-pos om hierdie versoek te voltooi. </p>
-				<p> As u 'n nuwe verifikasie-e-posadres benodig, voer dan weer die e-pos hierbo in en dien die versoek weer in. </p>",
+	"SET_GRAVITAR"	=> " Wil u profielfoto verander?   <br>Besoek <a href='https://af.gravatar.com/'>https://en.gravatar.com/</a> en stel 'n rekening op met dieselfde e-pos as wat u op hierdie webwerf gebruik het. Dit werk op miljoene webwerwe. Dit is vinnig en maklik! ",
+	"SET_NOTE1"	=> "   Let wel   daar is 'n hangende versoek om u e-pos op te dateer na",
+	"SET_NOTE2"	=> ".     Gebruik die verifikasie-e-pos om hierdie versoek te voltooi.  
+				  As u 'n nuwe verifikasie-e-posadres benodig, voer dan weer die e-pos hierbo in en dien die versoek weer in.  ",
 	"SET_PW_REQ" 	=> "benodig om wagwoord, e-posadres te verander of PIN te herstel",
 	"SET_PW_REQI" 	=> "Vereis om u wagwoord te verander",
 
@@ -348,7 +348,7 @@ $lang = array_merge($lang, array(
 	"ERR_CAP"	=> "U het die Captcha-toets misluk, Robot!",
 	"ERR_PW_SAME"	=> "U ou wagwoord kan nie dieselfde wees as u nuwe nie",
 	"ERR_PW_FAIL"	=> "Huidige wagwoordverifikasie het misluk. Opdatering het misluk. Probeer asseblief weer.",
-	"ERR_GOOG"	=> "<strong> OPMERKING: </strong> As u oorspronklik by u Google / Facebook-rekening aangemeld het, moet u die skakel vir vergeet wagwoord gebruik om u wagwoord te verander ... tensy u regtig goed is met raai. ",
+	"ERR_GOOG"	=> " OPMERKING:   As u oorspronklik by u Google / Facebook-rekening aangemeld het, moet u die skakel vir vergeet wagwoord gebruik om u wagwoord te verander ... tensy u regtig goed is met raai. ",
 	"ERR_EM_VER"	=> "E-posverifikasie is nie geaktiveer nie. Kontak asseblief die stelseladministrateur.",
 	"ERR_EMAIL_STR"	=> "Iets is vreemd. Verifieer asseblief u e-pos weer. Ons is jammer oor die ongerief",
 ));

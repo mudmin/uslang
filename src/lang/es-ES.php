@@ -258,9 +258,9 @@ $lang = array_merge($lang, array(
 	"2FA_EXP"	=> "1 huella digital caducada",
 	"2FA_EXPD"	=> "Caducada",
 	"2FA_FP"	=> "Huellas digitales",
-	"2FA_NP"	=> "<strong>Fallo en Inicio de Sesi&oacute;n</strong> Two Factor Auth Code was not present. Please try again.",
-	"2FA_INV"	=> "<strong>Fallo en Inicio de Sesi&oacute;n</strong> Two Factor Auth Code was invalid. Please try again.",
-	"2FA_FATAL"	=> "<strong>Error fatal</strong> Por favor, contacta con el Administrador.",
+	"2FA_NP"	=> "Fallo en Inicio de Sesi&oacute;n  Two Factor Auth Code was not present. Please try again.",
+	"2FA_INV"	=> "Fallo en Inicio de Sesi&oacute;n  Two Factor Auth Code was invalid. Please try again.",
+	"2FA_FATAL"	=> "Error fatal  Por favor, contacta con el Administrador.",
 	"2FA_EXPS" 	=> "Caduca",
 	"2FA_ACTIVE" => "Sesiones Activas",
 	"2FA_NOT_FN" => "No se encuentran huellas",
@@ -308,11 +308,11 @@ $lang = array_merge($lang, array(
 	"VER_RESEND"	=> "Email de Verificaci&oacute;n Reenviado",
 	"VER_AGAIN"		=> "Escribe tu direcci&oacute;n email e intenta de nuevo",
 	"VER_PAGE"		=> "<li>Comprueba tu correo y haz click en el enlace que se te ha enviado</li><li>Hecho</li>",
-	"VER_RES_SUC" 	=> "<p>Se ha enviado tu enlace de verificaci&oacute;n a tu direcci&oacute;n email.</p><p>Haz click en el enlace enviado para completar la verificaci&oacute;n. Aseg&uacute;rate de revisar tu carpeta de Spam si el email no est&aacute; en tu bandeja de entrada.</p><p>Los enlaces de verificaci&oacute;n solo son v&aacute;lidos durante ",
+	"VER_RES_SUC" 	=> " Se ha enviado tu enlace de verificaci&oacute;n a tu direcci&oacute;n email.  Haz click en el enlace enviado para completar la verificaci&oacute;n. Aseg&uacute;rate de revisar tu carpeta de Spam si el email no est&aacute; en tu bandeja de entrada.  Los enlaces de verificaci&oacute;n solo son v&aacute;lidos durante ",
 	"VER_OOPS" 		=> "Vaya... parece que algo no ha ido bien. Puede ser un reset que has enviado antes. Haz click abajo para intentarlo de nuevo",
 	"VER_RESET" 	=> "&iexcl;Tu contrase&ntilde;a ha sido reseteada!",
 	"VER_INS" 		=> "<li>Teclea tu direcci&oacute;n email y haz click en Resetear</li> <li>Comprueba tu correo y haz click en el enlace que se te ha enviado.</li> <li>Sigue las instrucciones indicadas</li>",
-	"VER_SENT" 		=> "<p>Se te ha enviado el enlace de reseteo de contrase&ntilde;a a tu correo.</p> <p>Haz click en el enlace del correo para Resetear la contrase&ntilde;a. Si no ves el correo, comprueba tu bandeja de Spam.</p><p>Enlace v&aacute;lido solo durante ",
+	"VER_SENT" 		=> " Se te ha enviado el enlace de reseteo de contrase&ntilde;a a tu correo.   Haz click en el enlace del correo para Resetear la contrase&ntilde;a. Si no ves el correo, comprueba tu bandeja de Spam.  Enlace v&aacute;lido solo durante ",
 	"VER_PLEASE" 	=> "Resetear tu contrase&ntilde",
 ));
 
@@ -325,10 +325,10 @@ $lang = array_merge($lang, array(
 	"SET_UPDATE"	=> "Actualiza tu configuraci&oacute;n de usuario",
 	"SET_NOCHANGE"	=> "El Administrador ha desactivado el cambio de nombre de usuario.",
 	"SET_ONECHANGE"	=> "El Administrador ha establecido que los cambios de nombre de usuario solo se pueden hacer una vez y tu ya lo has hecho.",
-	"SET_GRAVITAR"	=> "<strong>&iquest;Quieres cambiar la foto de tu perfil? </strong><br> Visita <a href='https://en.gravatar.com/'>https://en.gravatar.com/</a> y crea una cuenta con el mismo email que has usado en este sitio. Est&aacute;n presentes en millones de sitios. &iexcl;Es r&aacute;pido y sencillo!",
-	"SET_NOTE1"		=> "<p><strong>Atento por favor,</strong> hay pendiente una solicitud de actualizaci&oacute;n de tu email a",
-	"SET_NOTE2"		=> ".</p><p>Por favor, usa el correo de verificaci&oacute;n para completar esta solicitud.</p>
-		<p>Si necesitas un nuevo correo de verificaci&oacute;n, vuelve a escribir el email anterior y env&iacute;a la solicitud de nuevo.</p>",
+	"SET_GRAVITAR"	=> "&iquest;Quieres cambiar la foto de tu perfil?  <br> Visita <a href='https://en.gravatar.com/'>https://en.gravatar.com/</a> y crea una cuenta con el mismo email que has usado en este sitio. Est&aacute;n presentes en millones de sitios. &iexcl;Es r&aacute;pido y sencillo!",
+	"SET_NOTE1"		=> " Atento por favor,  hay pendiente una solicitud de actualizaci&oacute;n de tu email a",
+	"SET_NOTE2"		=> ".  Por favor, usa el correo de verificaci&oacute;n para completar esta solicitud. 
+		 Si necesitas un nuevo correo de verificaci&oacute;n, vuelve a escribir el email anterior y env&iacute;a la solicitud de nuevo. ",
 	"SET_PW_REQ" 	=> "obligatorio para cambiar contrase&ntilde;a, email, o resetear el PIN",
 	"SET_PW_REQI" 	=> "Obligatorio para cambiar tu contrase&ntilde;a",
 
@@ -343,7 +343,7 @@ $lang = array_merge($lang, array(
 	"ERR_CAP"			=> "&iexcl;No has pasado el Test de comprobaci&oacute;n humana, Robot!",
 	"ERR_PW_SAME"		=> "Tu contrase&ntilde;a anterior no puede ser igual que la nueva",
 	"ERR_PW_FAIL"		=> "Fallo en la verificaci&oacute;n de contrase&ntilde;a actual. No se ha actualizado. Por favor, intenta de nuevo.",
-	"ERR_GOOG"			=> "<strong>ATENCI&oacute;N:</strong> Si desde el principio has entrado con tu cuenta de Google/Facebook, necesitar&aacute;s usar el enlace de olvido de contrase&ntilde;a para cambiar tu contrase&ntilde;a....a menos que seas realmente bueno adivinando.",
+	"ERR_GOOG"			=> "ATENCI&oacute;N:  Si desde el principio has entrado con tu cuenta de Google/Facebook, necesitar&aacute;s usar el enlace de olvido de contrase&ntilde;a para cambiar tu contrase&ntilde;a....a menos que seas realmente bueno adivinando.",
 	"ERR_EM_VER"		=> "La verificaci&oacute;n de email no est&aacute; habilitada. Por favor, contacta con el Administrador del sitio.",
 	"ERR_EMAIL_STR"		=> "Algo extra&ntilde;o ha ocurrido. Por favor, re-verifica tu email. Sentimos las molestias",
 ));

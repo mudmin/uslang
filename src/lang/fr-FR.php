@@ -262,9 +262,9 @@ $lang = array_merge($lang, array(
 	"2FA_ACTIVE" => "sessions actives",
 	"2FA_NOT_FN" => "Pas d'empreinte trouvée",
 	"2FA_FP"		=> "Empreintes digitales",
-	"2FA_NP"		=> "<strong>Echec login</strong> Double facteur d'authentification non présent. S.V.P. essayer de nouveau.",
-	"2FA_INV"		=> "<strong>Echec login</strong> double facteur d'authentification invalide. S.V.P. essayer de nouveau.",
-	"2FA_FATAL"	=> "<strong>Erreur fatale</strong> S.V.P. contacter l'administrateur du système.",
+	"2FA_NP"		=> "Echec login  Double facteur d'authentification non présent. S.V.P. essayer de nouveau.",
+	"2FA_INV"		=> "Echec login  double facteur d'authentification invalide. S.V.P. essayer de nouveau.",
+	"2FA_FATAL"	=> "Erreur fatale  S.V.P. contacter l'administrateur du système.",
 ));
 
 //Redirect Messages - These get a plus between each word // needs work in French
@@ -310,12 +310,12 @@ $lang = array_merge($lang, array(
 	"VER_RESEND"	=> "Renvoyer un courriel de vérification",
 	"VER_AGAIN"		=> "Saisir votre adresse courriel et essayez de nouveau",
 	"VER_PAGE"		=> "<li>Vérifiez votre courriel et cliquez sur le lien qui vous est envoyé</li><li>Terminé</li>",
-	"VER_RES_SUC" => "<p>Votre lien de vérification a été envoyé à votre adresse e-mail.</p><p>Cliquez sur le lien dans l'e-mail pour terminer la vérification. Assurez-vous de vérifier votre dossier de courrier indésirable si le courriel n'est pas dans votre boîte de réception.</p><p>Les liens de vérification ne sont valables que pour ",
+	"VER_RES_SUC" => " Votre lien de vérification a été envoyé à votre adresse e-mail.  Cliquez sur le lien dans l'e-mail pour terminer la vérification. Assurez-vous de vérifier votre dossier de courrier indésirable si le courriel n'est pas dans votre boîte de réception.  Les liens de vérification ne sont valables que pour ",
 	"VER_OOPS"		=> "Ooops...quelque chose n'a pas fonctionné, peut-être un lien ancien sur lequel vous avez cliqué. Cliquez ci dessous pour essayer de nouveau",
 	"VER_RESET"		=> "Votre mot de passe a été changé!",
 	"VER_INS"			=> "<li>Entrez votre adresse courriel et cliquez sur réinitialiser</li> <li> regardez vos courriels et cliquez sur le lien qui vous a été envoyé.</li><li>Suivez les instructions sur l'écran</li>",
-	"VER_SENT"		=> "<p>Votre lien pour modifier votre mot de passe a été envoyé à votre adresse courriel.</p>
-			    							<p>Cliquez sur le lien dans le courriel pour réinitialiser votre mot de passe. Assurez-vous de vérifier votre dossier de courrier indésirable si le courriel n'est pas dans votre boîte de réception.</p><pLes liens de réinitialisation ne sont valables que pour ",
+	"VER_SENT"		=> " Votre lien pour modifier votre mot de passe a été envoyé à votre adresse courriel. 
+			    							 Cliquez sur le lien dans le courriel pour réinitialiser votre mot de passe. Assurez-vous de vérifier votre dossier de courrier indésirable si le courriel n'est pas dans votre boîte de réception. <pLes liens de réinitialisation ne sont valables que pour ",
 	"VER_PLEASE"	=> "S.V.P. Modifiez votre mot de passe",
 ));
 
@@ -330,12 +330,12 @@ $lang = array_merge($lang, array(
 	"SET_NOCHANGE"	=> "L'administrateur a désactivé la capacité de changer de nom d'utilisateur.",
 	"SET_ONECHANGE"	=> "L'administrateur n'a autorisé qu'un changement de nom d'utilisateur et vous avez déjà utilisé cette possibilité.",
 
-	"SET_GRAVITAR"	=> "<strong>Voulez vous changer votre photo? </strong><br> Visitez <a href='https://en.gravatar.com/'https://en.gravatar.com/</a> et créez votre compte avec le même courriel que vous utilisez sur ce site . Cela fonctionne pour des millions de sites. C'est rapide et facile! utilisée sur ce site",
+	"SET_GRAVITAR"	=> "Voulez vous changer votre photo?  <br> Visitez <a href='https://en.gravatar.com/'https://en.gravatar.com/</a> et créez votre compte avec le même courriel que vous utilisez sur ce site . Cela fonctionne pour des millions de sites. C'est rapide et facile! utilisée sur ce site",
 
-	"SET_NOTE1"			=> "<p><strong>S.V.P., notez</strong> qu'il y a une demande en attente pour mettre à jour votre courriel à",
+	"SET_NOTE1"			=> " S.V.P., notez  qu'il y a une demande en attente pour mettre à jour votre courriel à",
 
-	"SET_NOTE2"			=> ".</p><p>S.V.P., utilisez le courriel de vérification pour répondre à cette demande.</p>
-		<p>Si vous avez besoin d'un nouveau courriel de vérification, S.V.P. re-entrez le courriel ci dessus et faites de nouveau la demande.</p>",
+	"SET_NOTE2"			=> ".  S.V.P., utilisez le courriel de vérification pour répondre à cette demande. 
+		 Si vous avez besoin d'un nouveau courriel de vérification, S.V.P. re-entrez le courriel ci dessus et faites de nouveau la demande. ",
 
 	"SET_PW_REQ" 		=> "Nécessaire pour changer de mot de passe: courriel, ou réinitialiser le PIN",
 	"SET_PW_REQI" 	=> "Nécessaire pour changer de mot de passe",
@@ -351,7 +351,7 @@ $lang = array_merge($lang, array(
 	"ERR_CAP"					=> "Vous avez échoué au test captcha, robot!",
 	"ERR_PW_SAME"			=> "Votre ancien mot de passe ne peut être le même que le nouveau",
 	"ERR_PW_FAIL"			=> "La vérification de mot de passe en cours a échoué . Echec de la mise à jour. S.V.P. essayer de nouveau.",
-	"ERR_GOOG"				=> "<strong>REMARQUE:</strong> Si vous êtes connecté avec votre compte google / facebook, utilisez le lien mot de passe oublié pour changer de mot de passe ... sauf si vous êtes doué pour quesser",
+	"ERR_GOOG"				=> "REMARQUE:  Si vous êtes connecté avec votre compte google / facebook, utilisez le lien mot de passe oublié pour changer de mot de passe ... sauf si vous êtes doué pour quesser",
 	"ERR_EM_VER"			=> "La vérification de courriel n'est pas activée. S.V.P. Contacter l'administrateur système.",
 	"ERR_Courriel_STR"		=> "Quelque chose est bizarre. S.V.P. re-vérifiez notre courriel. Nous sommes désolés pour les inconvénients",
 

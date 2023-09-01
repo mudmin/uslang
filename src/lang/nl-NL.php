@@ -260,9 +260,9 @@ $lang = array_merge($lang, array(
 	"2FA_ACTIVE" => "Actieve sessies",
 	"2FA_NOT_FN" => "Geen vingerafdrukken gevonden",
 	"2FA_FP" => "Vingerafdrukken",
-	"2FA_NP" => "<strong> Inloggen mislukt</strong> er was geen code voor 2 Factor Authenticatie. Probeer het opnieuw.",
-	"2FA_INV" => "<strong> Inloggen mislukt</strong> 2 Factor Authenticatie is ongeldig. Probeer het opnieuw.",
-	"2FA_FATAL" => "<strong> Fatale fout </strong> neem contact op met de systeembeheerder.",
+	"2FA_NP" => " Inloggen mislukt  er was geen code voor 2 Factor Authenticatie. Probeer het opnieuw.",
+	"2FA_INV" => " Inloggen mislukt  2 Factor Authenticatie is ongeldig. Probeer het opnieuw.",
+	"2FA_FATAL" => " Fatale fout   neem contact op met de systeembeheerder.",
 ));
 
 // Omleidingsberichten - deze krijgen een plus tussen elk woord
@@ -308,13 +308,13 @@ $lang = array_merge($lang, array(
 	"VER_RESEND" => "Verificatie-e-mail opnieuw verzonden",
 	"VER_AGAIN" => "Voer uw e-mailadres in en probeer het opnieuw",
 	"VER_PAGE" => "<li> Controleer uw e-mail en klik op de link die naar u is verzonden </li> <li> Gereed </li>",
-	"VER_RES_SUC" => "<p> Uw verificatielink is naar uw e-mailadres verzonden. </p> <p> Klik op de link in de e-mail om de verificatie te voltooien. Controleer uw spam-map als de e-mail niet in uw inbox komt. </p> <p> Verificatielinks zijn alleen geldig voor ",
+	"VER_RES_SUC" => "  Uw verificatielink is naar uw e-mailadres verzonden.     Klik op de link in de e-mail om de verificatie te voltooien. Controleer uw spam-map als de e-mail niet in uw inbox komt.     Verificatielinks zijn alleen geldig voor ",
 	"VER_OOPS" => "Oeps ... er is iets misgegaan, misschien heeft u op een oude resetlink geklikt. Klik hieronder om het opnieuw te proberen",
 	"VER_RESET" => "Uw wachtwoord is opnieuw ingesteld!",
 	"VER_INS" => "<li> Voer uw e-mailadres in en klik op Reset </li> <li> Controleer uw e-mail en klik op de link die naar u is verzonden. </li>
 <li> Volg de instructies op het scherm </li> ",
-	"VER_SENT" => "<p> De link voor het opnieuw instellen van uw wachtwoord is verzonden naar uw e-mailadres. </p>
-<p> Klik op de link in de e-mail om uw wachtwoord opnieuw in te stellen. Controleer uw spammap als de e-mail niet in uw inbox staat. </p> <p> Reset-links verlopen over ",
+	"VER_SENT" => "  De link voor het opnieuw instellen van uw wachtwoord is verzonden naar uw e-mailadres.  
+  Klik op de link in de e-mail om uw wachtwoord opnieuw in te stellen. Controleer uw spammap als de e-mail niet in uw inbox staat.     Reset-links verlopen over ",
 	"VER_PLEASE" => "Stel uw wachtwoord opnieuw in",
 ));
 
@@ -329,12 +329,12 @@ $lang = array_merge($lang, array(
 	"SET_NOCHANGE" => "De beheerder heeft het wijzigen van gebruikersnamen uitgeschakeld.",
 	"SET_ONECHANGE" => "De beheerder heeft gebruikersnaamwijzigingen zo ingesteld dat deze slechts eenmaal mag wijzigen en u heeft dit al gedaan.",
 
-	"SET_GRAVITAR" => "<strong> Wilt u uw profielfoto wijzigen? </strong> <br> Bezoek <a href='https://en.gravatar.com/'> https://en.gravatar.com / </a> en stel een account in met dezelfde e-mail die u op deze site hebt gebruikt. Het werkt op miljoenen sites. Het is snel en gemakkelijk! ",
+	"SET_GRAVITAR" => " Wilt u uw profielfoto wijzigen?   <br> Bezoek <a href='https://en.gravatar.com/'> https://en.gravatar.com / </a> en stel een account in met dezelfde e-mail die u op deze site hebt gebruikt. Het werkt op miljoenen sites. Het is snel en gemakkelijk! ",
 
-	"SET_NOTE1" => "<p> <strong> Let op </strong> er is een verzoek in behandeling om uw e-mail bij te werken naar",
+	"SET_NOTE1" => "   Let op   er is een verzoek in behandeling om uw e-mail bij te werken naar",
 
-	"SET_NOTE2" => ". </p> <p> Gebruik de verificatie-e-mail om dit verzoek te voltooien. </p>
-<p> Als u een nieuwe verificatie-e-mail nodig heeft, voert u de bovenstaande e-mail opnieuw in en verzendt u de aanvraag opnieuw. </p> ",
+	"SET_NOTE2" => ".     Gebruik de verificatie-e-mail om dit verzoek te voltooien.  
+  Als u een nieuwe verificatie-e-mail nodig heeft, voert u de bovenstaande e-mail opnieuw in en verzendt u de aanvraag opnieuw.   ",
 
 	"SET_PW_REQ" => "vereist voor het wijzigen van het wachtwoord, e-mail of het opnieuw instellen van de pincode",
 	"SET_PW_REQI" => "Verplicht om uw wachtwoord te wijzigen",
@@ -350,7 +350,7 @@ $lang = array_merge($lang, array(
 	"ERR_CAP" => "U heeft de Captcha-test niet goed uitgevoerd, robot!",
 	"ERR_PW_SAME" => "Uw oude wachtwoord kan niet hetzelfde zijn als uw nieuwe",
 	"ERR_PW_FAIL" => "Huidige wachtwoordverificatie mislukt. Update mislukt. Probeer het opnieuw.",
-	"ERR_GOOG" => "<strong> OPMERKING: </strong> als u zich oorspronkelijk heeft aangemeld met uw Google / Facebook-account, moet u de link voor het vergeten wachtwoord gebruiken om uw wachtwoord te wijzigen... tenzij u er echt goed bent in gissen.",
+	"ERR_GOOG" => " OPMERKING:   als u zich oorspronkelijk heeft aangemeld met uw Google / Facebook-account, moet u de link voor het vergeten wachtwoord gebruiken om uw wachtwoord te wijzigen... tenzij u er echt goed bent in gissen.",
 	"ERR_EM_VER" => "E-mailverificatie is niet ingeschakeld. Neem contact op met de systeembeheerder.",
 	"ERR_EMAIL_STR" => "Er is iets vreemds. Controleer uw e-mail opnieuw. Onze excuses voor het ongemak",
 
